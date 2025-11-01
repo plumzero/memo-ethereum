@@ -2,6 +2,12 @@
 主要参考:
 - [Installing Geth](https://geth.ethereum.org/docs/getting-started/installing-geth)
 
+其他参考:
+- [go-ethereum github](https://github.com/ethereum/go-ethereum)
+
+补充参考:
+- [solidity language abi spec](https://docs.soliditylang.org/en/develop/abi-spec.html)
+
 首先确保[硬件](硬件要求.md)要支持，之后才能下载和安装 Geth。确认熟悉[安全要求](安全.md)并设置防火墙。
 
 Geth 安装包可以在[这里](https://geth.ethereum.org/downloads)进行下载。
@@ -47,7 +53,7 @@ geth-home
 
 ### 源码编译
 
-确认安装了 go 环境，笔者安装的 go 版本为 `1.25.3`。
+确认安装了 go 环境(Geth v1.16.5版本要求 go 版本为 1.23 及以上)，笔者安装的 go 版本为 `1.25.3`。
 
 克隆[go-ethereum仓库](https://github.com/ethereum/go-ethereum)，切换到指定版本，执行编译:
 ```s
@@ -56,7 +62,15 @@ geth-home
   git checkout v1.16.5
   make geth
 ```
-
 这些命令会在 go-ethereum/build/bin 文件夹中创建一个 geth 可执行文件，如果需要，可以将其移动到另一个目录并运行。该二进制文件是独立的，不需要任何其他文件。
 
-此外，Geth 提供的所有开发者工具(clef、devp2p、abigen、bootnode、evm 和 rlpdump)都可以通过运行`make all`进行编译。更多关于这些工具的信息，请点击[这里](https://github.com/ethereum/go-ethereum#executables)。
+go-ethereum 项目附带了 cmd 目录中的几个包装器/可执行文件。Geth 提供的开发者工具(clef、devp2p、abigen、bootnode、evm 和 rlpdump)都可以通过运行`make all`进行编译。
+
+具体开发者工具命令及说明如下:
+- `geth`: 主要的以太坊 CLI 客户端。它是以太坊网络(主网、测试网或私有网)的入口点，可以作为全节点(默认)、存档节点(保留所有历史状态)或轻节点(实时检索数据)运行。其他进程可以通过 HTTP、WebSocket 和/或 IPC 传输之上暴露的 JSON RPC 端点将其用作以太坊网络的网关。
+- `clef`: 独立签名工具，可作为 geth 的后端签名器。
+- `devp2p`: 无需运行完整的区块链即可与网络层上的节点进行交互的实用程序。
+- `abigen`: 源代码生成器，用于将以太坊合约定义转换为易于使用、编译时类型安全的 Go 包。它适用于普通的[以太坊合约 ABI](https://docs.soliditylang.org/en/develop/abi-spec.html)，如果合约字节码可用，则可进行扩展功能。此外，它也接受 Solidity 源文件，从而大大简化开发流程。详情请参阅我们的[原生 DApps 页面](https://geth.ethereum.org/docs/developers/dapp-developer/native-bindings)。
+- `evm`: EVM(以太坊虚拟机)的开发者实用程序版本，能够在可配置的环境和执行模式下运行字节码片段。其目的是允许对 EVM 操作码进行隔离、细粒度的调试(例如 `evm --code 60ff60ff --debug run`）。
+- `rlpdump`: 开发人员实用工具，用于将二进制 RLP([Recursive Length Prefix](https://ethereum.org/developers/docs/data-structures-and-encoding/rlp/),递归长度前缀)转储(以太坊协议在网络和共识方面使用的数据编码)转换为更用户友好的分层表示(例如 `rlpdump --hex CE0183FFFFFFC4C304050583616263`）。
+
