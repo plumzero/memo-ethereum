@@ -1,0 +1,238 @@
+INFO [11-23|13:15:32.528] Maximum peer count                       ETH=50 total=50
+INFO [11-23|13:15:32.529] Smartcard socket not found, disabling    err="stat /run/pcscd/pcscd.comm: no such file or directory"
+INFO [11-23|13:15:32.533] Set global gas cap                       cap=50,000,000
+INFO [11-23|13:15:32.533] Initializing the KZG library             backend=gokzg
+INFO [11-23|13:15:32.537] Allocated trie memory caches             clean=154.00MiB dirty=256.00MiB
+INFO [11-23|13:15:32.537] Using pebble as the backing database
+INFO [11-23|13:15:32.537] Allocated cache and file handles         database=/home/tester/geth-ephemery/geth/chaindata cache=512.00MiB handles=524,288
+INFO [11-23|13:15:32.718] Opened ancient database                  database=/home/tester/geth-ephemery/geth/chaindata/ancient/chain readonly=false
+INFO [11-23|13:15:32.718] Opened Era store                         datadir=/home/tester/geth-ephemery/geth/chaindata/ancient/chain/era
+INFO [11-23|13:15:32.718] State scheme set to already existing     scheme=path
+INFO [11-23|13:15:32.718] Initialising Ethereum protocol           network=39,438,153 dbversion=<nil>
+INFO [11-23|13:15:32.718] Load database journal from disk
+INFO [11-23|13:15:32.718] Failed to load journal, discard it       err="journal not found"
+INFO [11-23|13:15:32.757] Opened ancient database                  database=/home/tester/geth-ephemery/geth/chaindata/ancient/state readonly=false
+INFO [11-23|13:15:32.757] Initialized path database                triecache=154.00MiB statecache=102.00MiB buffer=256.00MiB state-history="last 90000 blocks" journal-dir=/home/tester/geth-ephemery/geth/triedb
+INFO [11-23|13:15:32.757] 
+INFO [11-23|13:15:32.757] ---------------------------------------------------------------------------------------------------------------------------------------------------------
+INFO [11-23|13:15:32.757] Chain ID:  39438153 (unknown)
+INFO [11-23|13:15:32.757] Consensus: unknown
+INFO [11-23|13:15:32.757] 
+INFO [11-23|13:15:32.757] Pre-Merge hard forks (block based):
+INFO [11-23|13:15:32.757]  - Homestead:                   #0       
+INFO [11-23|13:15:32.757]  - Tangerine Whistle (EIP 150): #0       
+INFO [11-23|13:15:32.757]  - Spurious Dragon/1 (EIP 155): #0       
+INFO [11-23|13:15:32.757]  - Spurious Dragon/2 (EIP 158): #0       
+INFO [11-23|13:15:32.757]  - Byzantium:                   #0       
+INFO [11-23|13:15:32.757]  - Constantinople:              #0       
+INFO [11-23|13:15:32.757]  - Petersburg:                  #0       
+INFO [11-23|13:15:32.757]  - Istanbul:                    #0       
+INFO [11-23|13:15:32.757]  - Berlin:                      #0       
+INFO [11-23|13:15:32.757]  - London:                      #0       
+INFO [11-23|13:15:32.757] 
+INFO [11-23|13:15:32.757] Merge configured:
+INFO [11-23|13:15:32.757]  - Total terminal difficulty:  0
+INFO [11-23|13:15:32.757]  - Merge netsplit block:       #0       
+INFO [11-23|13:15:32.757] 
+INFO [11-23|13:15:32.757] Post-Merge hard forks (timestamp based):
+INFO [11-23|13:15:32.757]  - Shanghai:                    @0         
+INFO [11-23|13:15:32.757]  - Cancun:                      @0          blob: (target: 3, max: 6, fraction: 3338477)
+INFO [11-23|13:15:32.757]  - Prague:                      @0          blob: (target: 6, max: 9, fraction: 5007716)
+INFO [11-23|13:15:32.757]  - Osaka:                       @0          blob: (target: 6, max: 9, fraction: 5007716)
+INFO [11-23|13:15:32.757]  - BPO1:                        @1764452232 blob: (target: 8, max: 12, fraction: 6676955)
+INFO [11-23|13:15:32.757]  - BPO2:                        @1765238664 blob: (target: 10, max: 15, fraction: 8346193)
+INFO [11-23|13:15:32.757] 
+INFO [11-23|13:15:32.757] All fork specifications can be found at https://ethereum.github.io/execution-specs/src/ethereum/forks/
+INFO [11-23|13:15:32.757] 
+INFO [11-23|13:15:32.757] ---------------------------------------------------------------------------------------------------------------------------------------------------------
+INFO [11-23|13:15:32.757] 
+INFO [11-23|13:15:32.758] Loaded most recent local block           number=0 hash=7b3c37..1f4aa5 age=2d10h15m
+INFO [11-23|13:15:32.758] Initialized transaction indexer          range="last 2350000 blocks"
+INFO [11-23|13:15:33.546] Enabled snap sync                        head=0 hash=7b3c37..1f4aa5
+INFO [11-23|13:15:33.546] Gasprice oracle is ignoring threshold set threshold=2
+INFO [11-23|13:15:33.547] Registered sync override service
+INFO [11-23|13:15:33.548] Starting peer-to-peer node               instance=Geth/v1.16.5-stable-737ffd1b/linux-amd64/go1.25.1
+INFO [11-23|13:15:33.572] New local node record                    seq=1,763,874,933,571 id=6f1c55fae8ed247b ip=127.0.0.1 udp=30303 tcp=30303
+INFO [11-23|13:15:33.573] Started P2P networking                   self=enode://8651d9151762b4c558f6619ae4f85efb5483293d0838d7c72b14715bc0f0062ed62b93c605b8684c5409f9140a8786004cfc4460d8eb9a4cb71b3a8d5e488a88@127.0.0.1:30303
+INFO [11-23|13:15:33.574] IPC endpoint opened                      url=/home/tester/geth-ephemery/geth.ipc
+INFO [11-23|13:15:33.575] Generated JWT secret                     path=geth-ephemery/jwtsecret
+INFO [11-23|13:15:33.575] HTTP server started                      endpoint=127.0.0.1:8545 auth=false prefix= cors= vhosts=localhost
+INFO [11-23|13:15:33.577] WebSocket enabled                        url=ws://127.0.0.1:8551
+INFO [11-23|13:15:33.577] HTTP server started                      endpoint=127.0.0.1:8551 auth=true  prefix= cors=localhost vhosts=localhost
+INFO [11-23|13:15:33.577] Started log indexer
+INFO [11-23|13:15:34.815] New local node record                    seq=1,763,874,933,572 id=6f1c55fae8ed247b ip=183.193.32.94 udp=14540 tcp=30303
+WARN [11-23|13:16:08.550] Beacon client online, but no consensus updates received in a while. Please fix your beacon client to follow the chain!
+WARN [11-23|13:16:58.748] Fetching the unknown forkchoice head from network hash=e25f7f..012929
+INFO [11-23|13:16:58.975] Forkchoice requested sync to new head    number=13067 hash=e25f7f..012929 finalized=13067
+INFO [11-23|13:17:01.305] Syncing beacon headers                   downloaded=512 left=12554 eta=57.132s
+INFO [11-23|13:17:11.723] Syncing beacon headers                   downloaded=5120 left=7946  eta=19.784s
+INFO [11-23|13:17:20.278] Syncing beacon headers                   downloaded=8704 left=4362  eta=10.675s
+INFO [11-23|13:17:28.757] Syncing beacon headers                   downloaded=12288 left=778   eta=1.885s
+INFO [11-23|13:17:30.442] Syncing beacon headers                   downloaded=13066 left=0     eta=0s
+WARN [11-23|13:17:30.442] Latest filled block is not available
+INFO [11-23|13:17:30.442] Block synchronisation started
+INFO [11-23|13:17:30.442] Disabled trie database due to state sync
+INFO [11-23|13:17:31.657] Syncing: chain download in progress      synced=0.02% chain=18.00B headers=2@6.00B bodies=2@6.00B receipts=2@6.00B eta=2h10m8.547s
+INFO [11-23|13:17:50.587] Syncing: chain download in progress      synced=30.87% chain=18.00B headers=4034@6.00B bodies=4034@6.00B receipts=4034@6.00B eta=45.065s
+INFO [11-23|13:17:59.158] Syncing: chain download in progress      synced=99.50% chain=18.00B headers=13002@6.00B bodies=13002@6.00B receipts=13002@6.00B eta=143.460ms
+INFO [11-23|13:18:07.163] Syncing: chain download in progress      synced=99.50% chain=18.00B headers=13002@6.00B bodies=13002@6.00B receipts=13002@6.00B eta=183.481ms
+INFO [11-23|13:18:15.169] Syncing: chain download in progress      synced=99.50% chain=18.00B headers=13002@6.00B bodies=13002@6.00B receipts=13002@6.00B eta=223.503ms
+INFO [11-23|13:18:23.175] Syncing: chain download in progress      synced=99.50% chain=18.00B headers=13002@6.00B bodies=13002@6.00B receipts=13002@6.00B eta=263.525ms
+INFO [11-23|13:18:31.182] Syncing: chain download in progress      synced=99.50% chain=18.00B headers=13002@6.00B bodies=13002@6.00B receipts=13002@6.00B eta=303.556ms
+INFO [11-23|13:18:39.186] Syncing: chain download in progress      synced=99.50% chain=18.00B headers=13002@6.00B bodies=13002@6.00B receipts=13002@6.00B eta=343.567ms
+INFO [11-23|13:18:47.191] Syncing: chain download in progress      synced=99.50% chain=18.00B headers=13002@6.00B bodies=13002@6.00B receipts=13002@6.00B eta=383.588ms
+INFO [11-23|13:18:55.197] Syncing: chain download in progress      synced=99.50% chain=18.00B headers=13002@6.00B bodies=13002@6.00B receipts=13002@6.00B eta=423.610ms
+WARN [11-23|13:18:58.569] Beacon client online, but no consensus updates received in a while. Please fix your beacon client to follow the chain!
+INFO [11-23|13:19:03.201] Syncing: chain download in progress      synced=99.50% chain=18.00B headers=13002@6.00B bodies=13002@6.00B receipts=13002@6.00B eta=463.626ms
+INFO [11-23|13:19:11.206] Syncing: chain download in progress      synced=99.50% chain=18.00B headers=13002@6.00B bodies=13002@6.00B receipts=13002@6.00B eta=503.647ms
+INFO [11-23|13:19:19.212] Syncing: chain download in progress      synced=99.50% chain=18.00B headers=13002@6.00B bodies=13002@6.00B receipts=13002@6.00B eta=543.667ms
+INFO [11-23|13:19:27.218] Syncing: chain download in progress      synced=99.50% chain=18.00B headers=13002@6.00B bodies=13002@6.00B receipts=13002@6.00B eta=583.693ms
+INFO [11-23|13:19:35.222] Syncing: chain download in progress      synced=99.50% chain=18.00B headers=13002@6.00B bodies=13002@6.00B receipts=13002@6.00B eta=623.706ms
+INFO [11-23|13:19:43.227] Syncing: chain download in progress      synced=99.50% chain=18.00B headers=13002@6.00B bodies=13002@6.00B receipts=13002@6.00B eta=663.723ms
+INFO [11-23|13:19:51.233] Syncing: chain download in progress      synced=99.50% chain=18.00B headers=13002@6.00B bodies=13002@6.00B receipts=13002@6.00B eta=703.748ms
+INFO [11-23|13:19:59.236] Syncing: chain download in progress      synced=99.50% chain=18.00B headers=13002@6.00B bodies=13002@6.00B receipts=13002@6.00B eta=743.758ms
+INFO [11-23|13:20:07.243] Syncing: chain download in progress      synced=99.50% chain=18.00B headers=13002@6.00B bodies=13002@6.00B receipts=13002@6.00B eta=783.785ms
+INFO [11-23|13:20:15.248] Syncing: chain download in progress      synced=99.50% chain=18.00B headers=13002@6.00B bodies=13002@6.00B receipts=13002@6.00B eta=823.804ms
+INFO [11-23|13:20:23.254] Syncing: chain download in progress      synced=99.50% chain=18.00B headers=13002@6.00B bodies=13002@6.00B receipts=13002@6.00B eta=863.829ms
+INFO [11-23|13:20:26.027] New local node record                    seq=1,763,874,933,573 id=6f1c55fae8ed247b ip=183.193.32.94 udp=14787 tcp=30303
+INFO [11-23|13:20:31.260] Syncing: chain download in progress      synced=99.50% chain=18.00B headers=13002@6.00B bodies=13002@6.00B receipts=13002@6.00B eta=903.854ms
+INFO [11-23|13:20:39.267] Syncing: chain download in progress      synced=99.50% chain=18.00B headers=13002@6.00B bodies=13002@6.00B receipts=13002@6.00B eta=943.880ms
+INFO [11-23|13:20:47.272] Syncing: chain download in progress      synced=99.50% chain=18.00B headers=13002@6.00B bodies=13002@6.00B receipts=13002@6.00B eta=983.902ms
+INFO [11-23|13:20:55.277] Syncing: chain download in progress      synced=99.50% chain=18.00B headers=13002@6.00B bodies=13002@6.00B receipts=13002@6.00B eta=1.023s
+INFO [11-23|13:21:03.285] Syncing: chain download in progress      synced=99.50% chain=18.00B headers=13002@6.00B bodies=13002@6.00B receipts=13002@6.00B eta=1.063s
+INFO [11-23|13:21:11.291] Syncing: chain download in progress      synced=99.50% chain=18.00B headers=13002@6.00B bodies=13002@6.00B receipts=13002@6.00B eta=1.103s
+INFO [11-23|13:21:19.301] Syncing: chain download in progress      synced=99.50% chain=18.00B headers=13002@6.00B bodies=13002@6.00B receipts=13002@6.00B eta=1.144s
+INFO [11-23|13:21:27.308] Syncing: chain download in progress      synced=99.50% chain=18.00B headers=13002@6.00B bodies=13002@6.00B receipts=13002@6.00B eta=1.184s
+INFO [11-23|13:21:35.315] Syncing: chain download in progress      synced=99.50% chain=18.00B headers=13002@6.00B bodies=13002@6.00B receipts=13002@6.00B eta=1.224s
+INFO [11-23|13:21:43.322] Syncing: chain download in progress      synced=99.50% chain=18.00B headers=13002@6.00B bodies=13002@6.00B receipts=13002@6.00B eta=1.264s
+INFO [11-23|13:21:51.328] Syncing: chain download in progress      synced=99.50% chain=18.00B headers=13002@6.00B bodies=13002@6.00B receipts=13002@6.00B eta=1.304s
+INFO [11-23|13:21:59.335] Syncing: chain download in progress      synced=99.50% chain=18.00B headers=13002@6.00B bodies=13002@6.00B receipts=13002@6.00B eta=1.344s
+INFO [11-23|13:22:07.341] Syncing: chain download in progress      synced=99.50% chain=18.00B headers=13002@6.00B bodies=13002@6.00B receipts=13002@6.00B eta=1.384s
+INFO [11-23|13:22:15.347] Syncing: chain download in progress      synced=99.50% chain=18.00B headers=13002@6.00B bodies=13002@6.00B receipts=13002@6.00B eta=1.424s
+INFO [11-23|13:22:23.354] Syncing: chain download in progress      synced=99.50% chain=18.00B headers=13002@6.00B bodies=13002@6.00B receipts=13002@6.00B eta=1.464s
+INFO [11-23|13:22:31.361] Syncing: chain download in progress      synced=99.50% chain=18.00B headers=13002@6.00B bodies=13002@6.00B receipts=13002@6.00B eta=1.504s
+INFO [11-23|13:22:39.369] Syncing: chain download in progress      synced=99.50% chain=18.00B headers=13002@6.00B bodies=13002@6.00B receipts=13002@6.00B eta=1.544s
+INFO [11-23|13:22:47.373] Syncing: chain download in progress      synced=99.50% chain=18.00B headers=13002@6.00B bodies=13002@6.00B receipts=13002@6.00B eta=1.584s
+INFO [11-23|13:22:55.379] Syncing: chain download in progress      synced=99.50% chain=18.00B headers=13002@6.00B bodies=13002@6.00B receipts=13002@6.00B eta=1.624s
+INFO [11-23|13:23:03.384] Syncing: chain download in progress      synced=99.50% chain=18.00B headers=13002@6.00B bodies=13002@6.00B receipts=13002@6.00B eta=1.664s
+INFO [11-23|13:23:11.392] Syncing: chain download in progress      synced=99.50% chain=18.00B headers=13002@6.00B bodies=13002@6.00B receipts=13002@6.00B eta=1.704s
+INFO [11-23|13:23:19.399] Syncing: chain download in progress      synced=99.50% chain=18.00B headers=13002@6.00B bodies=13002@6.00B receipts=13002@6.00B eta=1.744s
+INFO [11-23|13:23:27.404] Syncing: chain download in progress      synced=99.50% chain=18.00B headers=13002@6.00B bodies=13002@6.00B receipts=13002@6.00B eta=1.784s
+INFO [11-23|13:23:35.410] Syncing: chain download in progress      synced=99.50% chain=18.00B headers=13002@6.00B bodies=13002@6.00B receipts=13002@6.00B eta=1.824s
+INFO [11-23|13:23:43.417] Syncing: chain download in progress      synced=99.50% chain=18.00B headers=13002@6.00B bodies=13002@6.00B receipts=13002@6.00B eta=1.864s
+INFO [11-23|13:23:51.423] Syncing: chain download in progress      synced=99.50% chain=18.00B headers=13002@6.00B bodies=13002@6.00B receipts=13002@6.00B eta=1.904s
+WARN [11-23|13:23:58.603] Beacon client online, but no consensus updates received in a while. Please fix your beacon client to follow the chain!
+INFO [11-23|13:23:59.429] Syncing: chain download in progress      synced=99.50% chain=18.00B headers=13002@6.00B bodies=13002@6.00B receipts=13002@6.00B eta=1.944s
+INFO [11-23|13:24:07.435] Syncing: chain download in progress      synced=99.50% chain=18.00B headers=13002@6.00B bodies=13002@6.00B receipts=13002@6.00B eta=1.984s
+INFO [11-23|13:24:15.443] Syncing: chain download in progress      synced=99.50% chain=18.00B headers=13002@6.00B bodies=13002@6.00B receipts=13002@6.00B eta=2.024s
+INFO [11-23|13:24:23.450] Syncing: chain download in progress      synced=99.50% chain=18.00B headers=13002@6.00B bodies=13002@6.00B receipts=13002@6.00B eta=2.064s
+INFO [11-23|13:24:31.456] Syncing: chain download in progress      synced=99.50% chain=18.00B headers=13002@6.00B bodies=13002@6.00B receipts=13002@6.00B eta=2.104s
+INFO [11-23|13:24:39.461] Syncing: chain download in progress      synced=99.50% chain=18.00B headers=13002@6.00B bodies=13002@6.00B receipts=13002@6.00B eta=2.144s
+INFO [11-23|13:24:47.468] Syncing: chain download in progress      synced=99.50% chain=18.00B headers=13002@6.00B bodies=13002@6.00B receipts=13002@6.00B eta=2.184s
+INFO [11-23|13:24:55.475] Syncing: chain download in progress      synced=99.50% chain=18.00B headers=13002@6.00B bodies=13002@6.00B receipts=13002@6.00B eta=2.224s
+INFO [11-23|13:25:03.479] Syncing: chain download in progress      synced=99.50% chain=18.00B headers=13002@6.00B bodies=13002@6.00B receipts=13002@6.00B eta=2.264s
+INFO [11-23|13:25:11.484] Syncing: chain download in progress      synced=99.50% chain=18.00B headers=13002@6.00B bodies=13002@6.00B receipts=13002@6.00B eta=2.304s
+INFO [11-23|13:25:19.489] Syncing: chain download in progress      synced=99.50% chain=18.00B headers=13002@6.00B bodies=13002@6.00B receipts=13002@6.00B eta=2.344s
+INFO [11-23|13:25:27.494] Syncing: chain download in progress      synced=99.50% chain=18.00B headers=13002@6.00B bodies=13002@6.00B receipts=13002@6.00B eta=2.384s
+INFO [11-23|13:25:35.500] Syncing: chain download in progress      synced=99.50% chain=18.00B headers=13002@6.00B bodies=13002@6.00B receipts=13002@6.00B eta=2.424s
+INFO [11-23|13:25:43.506] Syncing: chain download in progress      synced=99.50% chain=18.00B headers=13002@6.00B bodies=13002@6.00B receipts=13002@6.00B eta=2.464s
+INFO [11-23|13:25:51.511] Syncing: chain download in progress      synced=99.50% chain=18.00B headers=13002@6.00B bodies=13002@6.00B receipts=13002@6.00B eta=2.504s
+INFO [11-23|13:25:59.518] Syncing: chain download in progress      synced=99.50% chain=18.00B headers=13002@6.00B bodies=13002@6.00B receipts=13002@6.00B eta=2.544s
+INFO [11-23|13:26:07.524] Syncing: chain download in progress      synced=99.50% chain=18.00B headers=13002@6.00B bodies=13002@6.00B receipts=13002@6.00B eta=2.584s
+INFO [11-23|13:26:15.529] Syncing: chain download in progress      synced=99.50% chain=18.00B headers=13002@6.00B bodies=13002@6.00B receipts=13002@6.00B eta=2.624s
+WARN [11-23|13:26:22.177] Fetching the unknown forkchoice head from network hash=e4c68d..ed5254
+INFO [11-23|13:26:22.405] Forkchoice requested sync to new head    number=13093 hash=e4c68d..ed5254 finalized=13067
+INFO [11-23|13:26:22.405] Restarting sync cycle                    reason="chain gapped, head: 13067, newHead: 13093"
+ERROR[11-23|13:26:22.536] Beacon backfilling failed                err="syncing canceled (requested)"
+WARN [11-23|13:26:25.921] Fetching the unknown forkchoice head from network hash=f603d2..b17786
+ERROR[11-23|13:26:27.572] Cleaning spurious beacon sync leftovers  stale_head_1=13067 stale_tail_1=13003 stale_next_1=e9aaac..c025b3
+INFO [11-23|13:26:27.573] Syncing beacon headers                   downloaded=13156 left=0     eta=0s
+ERROR[11-23|13:26:27.577] Reject duplicated disable operation
+INFO [11-23|13:26:27.578] Disabling direct-ancient mode            origin=13002 ancient=null
+INFO [11-23|13:26:29.691] Forkchoice requested sync to new head    number=13118 hash=f603d2..b17786 finalized=13067
+INFO [11-23|13:26:29.691] Restarting sync cycle                    reason="chain gapped, head: 13093, newHead: 13118"
+ERROR[11-23|13:26:29.691] Beacon backfilling failed                err="syncing canceled (requested)"
+WARN [11-23|13:26:30.158] Unexpected account range packet          peer=c5ec94e8 reqid=1,948,534,854,971,614,245
+WARN [11-23|13:26:30.319] Fetching the unknown forkchoice head from network hash=93dfdc..484c1a
+WARN [11-23|13:26:32.522] Unexpected account range packet          peer=fad12ea0 reqid=2,438,588,402,404,740,670
+ERROR[11-23|13:26:34.672] Cleaning spurious beacon sync leftovers  stale_head_1=13093 stale_tail_1=13003 stale_next_1=e9aaac..c025b3
+INFO [11-23|13:26:34.673] Syncing beacon headers                   downloaded=13271 left=0     eta=0s
+ERROR[11-23|13:26:34.673] Reject duplicated disable operation
+INFO [11-23|13:26:34.674] Disabling direct-ancient mode            origin=13002 ancient=null
+INFO [11-23|13:26:35.205] Forkchoice requested sync to new head    number=13143 hash=93dfdc..484c1a finalized=unknown
+INFO [11-23|13:26:35.205] Restarting sync cycle                    reason="chain gapped, head: 13118, newHead: 13143"
+WARN [11-23|13:26:35.208] Unexpected bytecode packet               peer=c5ec94e8 reqid=3,650,409,857,094,025,845
+ERROR[11-23|13:26:35.208] Beacon backfilling failed                err="syncing canceled (requested)"
+WARN [11-23|13:26:35.309] Unexpected account range packet          peer=8dc21595 reqid=6,885,465,858,635,075,176
+WARN [11-23|13:26:36.068] Unexpected account range packet          peer=3331f8d4 reqid=5,209,434,103,760,085,245
+WARN [11-23|13:26:36.068] Unexpected storage ranges packet         peer=3331f8d4 reqid=332,817,427,857,353,122
+WARN [11-23|13:26:36.322] Unexpected bytecode packet               peer=3331f8d4 reqid=1,368,854,176,025,448,847
+INFO [11-23|13:26:38.718] Forkchoice requested sync to new head    number=13166 hash=c1b259..0def60 finalized=unknown
+WARN [11-23|13:26:38.935] Unexpected account range packet          peer=20451193 reqid=3,554,374,765,058,311,157
+ERROR[11-23|13:26:40.054] Cleaning spurious beacon sync leftovers  stale_head_1=13118 stale_tail_1=13003 stale_next_1=e9aaac..c025b3
+INFO [11-23|13:26:40.055] Syncing beacon headers                   downloaded=13411 left=0     eta=0s
+ERROR[11-23|13:26:40.055] Reject duplicated disable operation
+INFO [11-23|13:26:40.055] Disabling direct-ancient mode            origin=13002 ancient=null
+INFO [11-23|13:26:40.055] Syncing: state download in progress      synced=0.14%  state=47.00B accounts=31@47.00B slots=0@0.00B codes=0@0.00B eta=107h49m26.842s
+INFO [11-23|13:26:40.149] Forkchoice requested sync to new head    number=13175 hash=14aa1c..984de7 finalized=unknown
+INFO [11-23|13:26:40.648] Syncing: chain download in progress      synced=98.69% chain=18.00B headers=13002@6.00B bodies=13002@6.00B receipts=13002@6.00B eta=7.320s
+INFO [11-23|13:26:40.655] Syncing: state download in progress      synced=0.14%  state=47.00B accounts=31@47.00B slots=0@0.00B codes=0@0.00B eta=107h56m30.210s
+WARN [11-23|13:26:40.985] Unexpected account range packet          peer=c5ec94e8 reqid=5,042,442,639,480,965,274
+WARN [11-23|13:26:41.257] Unexpected bytecode packet               peer=8dc21595 reqid=8,990,506,097,033,594,972
+WARN [11-23|13:26:41.258] Unexpected account range packet          peer=8dc21595 reqid=3,081,466,079,036,296,091
+WARN [11-23|13:26:41.496] Unexpected bytecode packet               peer=c5ec94e8 reqid=1,989,754,771,813,279,010
+WARN [11-23|13:26:43.805] Unexpected account range packet          peer=fad12ea0 reqid=4,708,321,951,845,433,549
+WARN [11-23|13:26:44.538] Unexpected account range packet          peer=20451193 reqid=640,824,442,587,579,006
+WARN [11-23|13:26:46.216] Unexpected account range packet          peer=3331f8d4 reqid=8,026,771,712,978,329,336
+WARN [11-23|13:26:46.398] Unexpected storage ranges packet         peer=3331f8d4 reqid=1,850,829,034,323,930,969
+INFO [11-23|13:26:48.255] Forkchoice requested sync to new head    number=13176 hash=fd4443..91f4cb finalized=unknown
+INFO [11-23|13:26:48.661] Syncing: chain download in progress      synced=99.46% chain=18.00B headers=13105@6.00B bodies=13105@6.00B receipts=13105@6.00B eta=3.024s
+INFO [11-23|13:26:48.739] Syncing: state download in progress      synced=18.74% state=559.44KiB accounts=171@19.75KiB slots=261@56.21KiB codes=66@483.47KiB eta=40m20.499s
+INFO [11-23|13:26:56.668] Syncing: chain download in progress      synced=99.46% chain=18.00B headers=13105@6.00B bodies=13105@6.00B receipts=13105@6.00B eta=3.067s
+INFO [11-23|13:26:57.151] Syncing: state download in progress      synced=75.00% state=2.29MiB   accounts=417@66.26KiB slots=4851@1.11MiB codes=139@1.11MiB  eta=3m8.900s
+INFO [11-23|13:27:04.675] Syncing: chain download in progress      synced=99.46% chain=18.00B headers=13105@6.00B bodies=13105@6.00B receipts=13105@6.00B eta=3.110s
+INFO [11-23|13:27:05.484] Syncing: state download in progress      synced=87.50% state=3.82MiB   accounts=477@77.93KiB slots=10946@2.59MiB codes=146@1.16MiB  eta=1m22.146s
+INFO [11-23|13:27:12.604] Forkchoice requested sync to new head    number=13177 hash=a9cb73..d499f1 finalized=unknown
+INFO [11-23|13:27:12.680] Syncing: chain download in progress      synced=99.45% chain=18.00B headers=13105@6.00B bodies=13105@6.00B receipts=13105@6.00B eta=3.198s
+INFO [11-23|13:27:14.922] Syncing: state download in progress      synced=87.50% state=4.36MiB   accounts=477@77.93KiB slots=13042@3.13MiB codes=146@1.16MiB  eta=1m23.495s
+INFO [11-23|13:27:20.686] Syncing: chain download in progress      synced=99.45% chain=18.00B headers=13105@6.00B bodies=13105@6.00B receipts=13105@6.00B eta=3.242s
+INFO [11-23|13:27:24.647] Syncing: state download in progress      synced=87.50% state=6.32MiB   accounts=477@77.93KiB slots=21350@5.09MiB codes=146@1.16MiB  eta=1m24.883s
+INFO [11-23|13:27:25.725] Syncing: state download in progress      synced=100.00% state=7.35MiB   accounts=547@90.92KiB slots=25796@6.11MiB codes=146@1.16MiB  eta=-2.262ms
+INFO [11-23|13:27:25.725] State sync phase is completed            elapsed=9m55.282s
+INFO [11-23|13:27:28.691] Syncing: chain download in progress      synced=99.45%  chain=18.00B headers=13105@6.00B bodies=13105@6.00B receipts=13105@6.00B eta=3.286s
+INFO [11-23|13:27:30.662] State healing phase is completed         elapsed=4.936s
+INFO [11-23|13:27:30.663] Syncing: state healing in progress       accounts=16@1.14KiB   slots=0@0.00B       codes=0@0.00B      nodes=58@11.87KiB pending=0
+INFO [11-23|13:27:30.819] Opened ancient database                  database=/home/tester/geth-ephemery/geth/chaindata/ancient/state readonly=false
+INFO [11-23|13:27:30.821] Started snapshot generation              root=5f492c..ed4be4
+INFO [11-23|13:27:30.821] Rebuilt trie database                    root=5f492c..ed4be4
+INFO [11-23|13:27:30.821] Resuming snapshot generation             root=5f492c..ed4be4 accounts=0            slots=0             storage=0.00B dangling=0 elapsed=2.068ms
+INFO [11-23|13:27:30.821] Committed new head block                 number=13106 hash=06ad51..99bba4
+INFO [11-23|13:27:30.832] Ready for fork activation                fork=BPO1 date="30 Nov 25 05:37 CST" remaining=160h9m41s timestamp=1,764,452,232
+INFO [11-23|13:27:31.066] Imported new chain segment               number=13177 hash=a9cb73..d499f1 blocks=71 txs=0 mgas=0.000 elapsed=242.711ms mgasps=0.000 triediffs=576.51KiB triedirty=0.00B
+WARN [11-23|13:27:31.067] Nil finalized block cannot evict old blobs
+INFO [11-23|13:27:31.090] Syncing: chain download in progress      synced=100.00% chain=18.00B headers=13177@6.00B bodies=13177@6.00B receipts=13177@6.00B eta=0s
+INFO [11-23|13:27:31.090] Snap sync complete, auto disabling
+INFO [11-23|13:27:31.100] Generated snapshot                       accounts=481          slots=25796         storage=2.22MiB dangling=0 elapsed=281.209ms
+INFO [11-23|13:27:31.435] Indexed transactions                     blocks=13178 txs=511 tail=0 elapsed=368.217ms
+INFO [11-23|13:27:36.330] Imported new potential chain segment     number=13178 hash=0e99e2..9f0165 blocks=1     txs=0   mgas=0.000 elapsed=3.193ms   mgasps=0.000 triediffs=584.75KiB triedirty=0.00B
+INFO [11-23|13:27:36.356] Chain head was updated                   number=13178 hash=0e99e2..9f0165 root=b3eb09..edf5e3 elapsed="99.898µs"
+INFO [11-23|13:27:40.578] Log index head rendering in progress     firstblock=0 lastblock=13178 processed=13179 remaining=0         elapsed=9.744s
+INFO [11-23|13:27:40.578] Log index head rendering finished        firstblock=0 lastblock=13178 processed=13179 elapsed=9.744s
+INFO [11-23|13:27:48.295] Imported new potential chain segment     number=13179 hash=bb8bf5..47b701 blocks=1     txs=0   mgas=0.000 elapsed=1.511ms    mgasps=0.000 triediffs=593.13KiB triedirty=0.00B
+INFO [11-23|13:27:48.309] Chain head was updated                   number=13179 hash=bb8bf5..47b701 root=187091..cbc71e elapsed="71.361µs"
+INFO [11-23|13:28:00.363] Imported new potential chain segment     number=13180 hash=b87a98..f1f07d blocks=1     txs=0   mgas=0.000 elapsed=2.667ms    mgasps=0.000 triediffs=601.34KiB triedirty=0.00B
+INFO [11-23|13:28:00.387] Chain head was updated                   number=13180 hash=b87a98..f1f07d root=fb9e9b..5429bf elapsed="100.476µs"
+INFO [11-23|13:28:12.290] Imported new potential chain segment     number=13181 hash=c906b3..8578f6 blocks=1     txs=0   mgas=0.000 elapsed=2.155ms     mgasps=0.000 triediffs=609.46KiB triedirty=0.00B
+INFO [11-23|13:28:12.305] Chain head was updated                   number=13181 hash=c906b3..8578f6 root=6b3794..3a0e09 elapsed="70.02µs"
+INFO [11-23|13:28:24.242] Imported new potential chain segment     number=13182 hash=b926f5..b35c73 blocks=1     txs=0   mgas=0.000 elapsed=1.204ms     mgasps=0.000 triediffs=617.88KiB triedirty=0.00B
+INFO [11-23|13:28:24.255] Chain head was updated                   number=13182 hash=b926f5..b35c73 root=98f999..96503a elapsed="77.674µs"
+INFO [11-23|13:28:36.311] Imported new potential chain segment     number=13183 hash=5f7f68..cf8ea2 blocks=1     txs=0   mgas=0.000 elapsed=4.234ms     mgasps=0.000 triediffs=626.15KiB triedirty=0.00B
+INFO [11-23|13:28:36.321] Chain head was updated                   number=13183 hash=5f7f68..cf8ea2 root=478985..6de4db elapsed="60.351µs"
+INFO [11-23|13:28:48.352] Imported new potential chain segment     number=13184 hash=a79e84..eefc93 blocks=1     txs=0   mgas=0.000 elapsed=1.331ms     mgasps=0.000 triediffs=633.97KiB triedirty=0.00B
+INFO [11-23|13:28:48.362] Chain head was updated                   number=13184 hash=a79e84..eefc93 root=dcc47f..bb6044 elapsed="68.493µs"
+INFO [11-23|13:29:00.335] Imported new potential chain segment     number=13185 hash=3290d1..7381c4 blocks=1     txs=0   mgas=0.000 elapsed=1.886ms     mgasps=0.000 triediffs=641.74KiB triedirty=0.00B
+INFO [11-23|13:29:00.349] Chain head was updated                   number=13185 hash=3290d1..7381c4 root=8a6e25..f624ca elapsed="68.716µs"
+INFO [11-23|13:29:12.360] Imported new potential chain segment     number=13186 hash=0aa7a9..a29fe0 blocks=1     txs=0   mgas=0.000 elapsed=1.437ms     mgasps=0.000 triediffs=649.51KiB triedirty=0.00B
+INFO [11-23|13:29:12.370] Chain head was updated                   number=13186 hash=0aa7a9..a29fe0 root=92b0a1..0f34d5 elapsed="57.598µs"
+INFO [11-23|13:29:36.306] Imported new potential chain segment     number=13187 hash=0237cf..13b481 blocks=1     txs=0   mgas=0.000 elapsed=1.687ms     mgasps=0.000 triediffs=657.54KiB triedirty=0.00B
+INFO [11-23|13:29:36.319] Chain head was updated                   number=13187 hash=0237cf..13b481 root=b5363c..ab8dd1 elapsed="64.826µs"

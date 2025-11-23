@@ -1,0 +1,264 @@
+INFO [11-23|09:37:59.820] Starting Geth on Sepolia testnet...
+INFO [11-23|09:37:59.827] Maximum peer count                       ETH=50 total=50
+INFO [11-23|09:37:59.832] Smartcard socket not found, disabling    err="stat /run/pcscd/pcscd.comm: no such file or directory"
+INFO [11-23|09:37:59.840] Set global gas cap                       cap=50,000,000
+INFO [11-23|09:37:59.843] Initializing the KZG library             backend=gokzg
+INFO [11-23|09:37:59.851] Allocated trie memory caches             clean=154.00MiB dirty=256.00MiB
+INFO [11-23|09:37:59.851] Defaulting to pebble as the backing database
+INFO [11-23|09:37:59.851] Allocated cache and file handles         database=/home/tester/geth-sepolia/geth/chaindata cache=512.00MiB handles=524,288
+INFO [11-23|09:38:00.027] Opened ancient database                  database=/home/tester/geth-sepolia/geth/chaindata/ancient/chain readonly=false
+INFO [11-23|09:38:00.027] Opened Era store                         datadir=/home/tester/geth-sepolia/geth/chaindata/ancient/chain/era
+WARN [11-23|09:38:00.028] Head block is not reachable
+INFO [11-23|09:38:00.028] State schema set to default              scheme=path
+INFO [11-23|09:38:00.029] Initialising Ethereum protocol           network=11,155,111 dbversion=<nil>
+INFO [11-23|09:38:00.030] Load database journal from disk
+INFO [11-23|09:38:00.131] Opened ancient database                  database=/home/tester/geth-sepolia/geth/chaindata/ancient/state readonly=false
+INFO [11-23|09:38:00.131] State snapshot generator is not found
+INFO [11-23|09:38:00.131] Starting snapshot generation             root=56e81f..63b421 accounts=0 slots=0 storage=0.00B dangling=0 elapsed="22.26µs"
+INFO [11-23|09:38:00.131] Initialized path database                triecache=154.00MiB statecache=102.00MiB buffer=256.00MiB state-history="last 90000 blocks" journal-dir=/home/tester/geth-sepolia/geth/triedb
+INFO [11-23|09:38:00.131] Writing custom genesis block
+INFO [11-23|09:38:00.132] Resuming snapshot generation             root=56e81f..63b421 accounts=0 slots=0 storage=0.00B dangling=0 elapsed="655.816µs"
+INFO [11-23|09:38:00.132] Generated snapshot                       accounts=0 slots=0 storage=0.00B dangling=0 elapsed=1.008ms
+INFO [11-23|09:38:00.133] 
+INFO [11-23|09:38:00.133] ---------------------------------------------------------------------------------------------------------------------------------------------------------
+INFO [11-23|09:38:00.133] Chain ID:  11155111 (sepolia)
+INFO [11-23|09:38:00.133] Consensus: Beacon (proof-of-stake), merged from Ethash (proof-of-work)
+INFO [11-23|09:38:00.133] 
+INFO [11-23|09:38:00.133] Pre-Merge hard forks (block based):
+INFO [11-23|09:38:00.133]  - Homestead:                   #0       
+INFO [11-23|09:38:00.133]  - Tangerine Whistle (EIP 150): #0       
+INFO [11-23|09:38:00.133]  - Spurious Dragon/1 (EIP 155): #0       
+INFO [11-23|09:38:00.133]  - Spurious Dragon/2 (EIP 158): #0       
+INFO [11-23|09:38:00.133]  - Byzantium:                   #0       
+INFO [11-23|09:38:00.133]  - Constantinople:              #0       
+INFO [11-23|09:38:00.133]  - Petersburg:                  #0       
+INFO [11-23|09:38:00.133]  - Istanbul:                    #0       
+INFO [11-23|09:38:00.133]  - Muir Glacier:                #0       
+INFO [11-23|09:38:00.133]  - Berlin:                      #0       
+INFO [11-23|09:38:00.133]  - London:                      #0       
+INFO [11-23|09:38:00.133] 
+INFO [11-23|09:38:00.133] Merge configured:
+INFO [11-23|09:38:00.133]  - Total terminal difficulty:  17000000000000000
+INFO [11-23|09:38:00.133]  - Merge netsplit block:       #1735371 
+INFO [11-23|09:38:00.133] 
+INFO [11-23|09:38:00.133] Post-Merge hard forks (timestamp based):
+INFO [11-23|09:38:00.133]  - Shanghai:                    @1677557088
+INFO [11-23|09:38:00.133]  - Cancun:                      @1706655072 blob: (target: 3, max: 6, fraction: 3338477)
+INFO [11-23|09:38:00.133]  - Prague:                      @1741159776 blob: (target: 6, max: 9, fraction: 5007716)
+INFO [11-23|09:38:00.133]  - Osaka:                       @1760427360 blob: (target: 6, max: 9, fraction: 5007716)
+INFO [11-23|09:38:00.133]  - BPO1:                        @1761017184 blob: (target: 10, max: 15, fraction: 8346193)
+INFO [11-23|09:38:00.133]  - BPO2:                        @1761607008 blob: (target: 14, max: 21, fraction: 11684671)
+INFO [11-23|09:38:00.133] 
+INFO [11-23|09:38:00.133] All fork specifications can be found at https://ethereum.github.io/execution-specs/src/ethereum/forks/
+INFO [11-23|09:38:00.133] 
+INFO [11-23|09:38:00.133] ---------------------------------------------------------------------------------------------------------------------------------------------------------
+INFO [11-23|09:38:00.133] 
+INFO [11-23|09:38:00.134] Loaded most recent local block           number=0 hash=25a5cc..3e6dd9 age=4y2mo1w
+INFO [11-23|09:38:00.135] Initialized transaction indexer          range="last 2350000 blocks"
+INFO [11-23|09:38:01.214] Enabled snap sync                        head=0 hash=25a5cc..3e6dd9
+INFO [11-23|09:38:01.215] Gasprice oracle is ignoring threshold set threshold=2
+INFO [11-23|09:38:01.216] Registered sync override service
+INFO [11-23|09:38:01.217] Starting peer-to-peer node               instance=Geth/v1.16.5-stable-737ffd1b/linux-amd64/go1.25.1
+INFO [11-23|09:38:01.250] New local node record                    seq=1,763,861,881,249 id=1c8df76f9c131eff ip=127.0.0.1 udp=30303 tcp=30303
+INFO [11-23|09:38:01.252] Started P2P networking                   self=enode://a62c618307751b56f43382c00737b13bcd809608efcb388c6d950e82756d2121119df5052158577738e45034e10c41a60f6aa7063cf98b31a2089a46bfa7d938@127.0.0.1:30303
+INFO [11-23|09:38:01.253] IPC endpoint opened                      url=/home/tester/geth-sepolia/geth.ipc
+INFO [11-23|09:38:01.253] Generated JWT secret                     path=geth-sepolia/jwtsecret
+INFO [11-23|09:38:01.254] HTTP server started                      endpoint=127.0.0.1:8545 auth=false prefix= cors= vhosts=localhost
+INFO [11-23|09:38:01.255] WebSocket enabled                        url=ws://127.0.0.1:8551
+INFO [11-23|09:38:01.255] HTTP server started                      endpoint=127.0.0.1:8551 auth=true  prefix= cors=localhost vhosts=localhost
+INFO [11-23|09:38:01.256] Started log indexer
+INFO [11-23|09:38:02.432] New local node record                    seq=1,763,861,881,250 id=1c8df76f9c131eff ip=183.193.32.94 udp=14836 tcp=30303
+WARN [11-23|09:38:36.217] Beacon client online, but no consensus updates received in a while. Please fix your beacon client to follow the chain!
+INFO [11-23|09:41:18.890] New local node record                    seq=1,763,861,881,251 id=1c8df76f9c131eff ip=183.193.32.94 udp=14667 tcp=30303
+WARN [11-23|09:43:36.253] Beacon client online, but no consensus updates received in a while. Please fix your beacon client to follow the chain!
+WARN [11-23|09:48:36.293] Beacon client online, but no consensus updates received in a while. Please fix your beacon client to follow the chain!
+WARN [11-23|09:53:36.330] Beacon client online, but no consensus updates received in a while. Please fix your beacon client to follow the chain!
+WARN [11-23|09:55:02.846] Fetching the unknown forkchoice head from network hash=833bb5..05c526
+INFO [11-23|09:55:03.426] Forkchoice requested sync to new head    number=9,686,600 hash=833bb5..05c526 finalized=9,686,600
+INFO [11-23|09:55:08.139] New local node record                    seq=1,763,861,881,252 id=1c8df76f9c131eff ip=183.193.32.94 udp=14836 tcp=30303
+INFO [11-23|09:55:08.653] Syncing beacon headers                   downloaded=2048 left=9,684,551 eta=6h51m57.871s
+INFO [11-23|09:55:20.530] Syncing beacon headers                   downloaded=67072 left=9,619,527 eta=40m53.128s
+INFO [11-23|09:55:28.865] Syncing beacon headers                   downloaded=99840 left=9,586,759 eta=40m42.708s
+INFO [11-23|09:55:38.561] Syncing beacon headers                   downloaded=144,384 left=9,542,215 eta=38m42.045s
+INFO [11-23|09:55:55.995] Syncing beacon headers                   downloaded=211,456 left=9,475,143 eta=39m15.567s
+WARN [11-23|09:56:04.239] Header request timed out, dropping peer  peer=a0cb414a elapsed=1m0s
+INFO [11-23|09:56:20.784] Syncing beacon headers                   downloaded=321,024 left=9,365,575 eta=37m36.843s
+WARN [11-23|09:56:39.708] Header request timed out, dropping peer  peer=f9a3a33f elapsed=18.922463849s
+INFO [11-23|09:56:43.170] Syncing beacon headers                   downloaded=428,032 left=9,258,567 eta=35m57.520s
+WARN [11-23|09:56:45.198] Header request timed out, dropping peer  peer=a0cb414a elapsed=21.287771831s
+INFO [11-23|09:56:51.420] Syncing beacon headers                   downloaded=474,624 left=9,211,975 eta=34m56.056s
+INFO [11-23|09:56:59.473] Syncing beacon headers                   downloaded=525,824 left=9,160,775 eta=33m41.743s
+INFO [11-23|09:56:59.933] Forkchoice requested sync to new head    number=9,686,631 hash=223c35..bf2a4f finalized=9,686,600
+INFO [11-23|09:57:07.755] Syncing beacon headers                   downloaded=585,728 left=9,100,871 eta=32m11.792s
+INFO [11-23|09:57:16.788] Syncing beacon headers                   downloaded=651,776 left=9,034,823 eta=30m48.644s
+INFO [11-23|09:57:26.374] Syncing beacon headers                   downloaded=718,336 left=8,968,263 eta=29m44.681s
+INFO [11-23|09:57:35.147] Syncing beacon headers                   downloaded=771,584 left=8,915,015 eta=29m13.019s
+INFO [11-23|09:57:43.180] Syncing beacon headers                   downloaded=815,616 left=8,870,983 eta=28m57.558s
+INFO [11-23|09:57:51.182] Syncing beacon headers                   downloaded=877,056 left=8,809,543 eta=28m5.020s
+WARN [11-23|09:57:59.260] Fetching the unknown forkchoice head from network hash=5f612c..bba3f4
+INFO [11-23|09:57:59.599] Forkchoice requested sync to new head    number=9,686,662 hash=5f612c..bba3f4 finalized=9,686,600
+INFO [11-23|09:57:59.761] Syncing beacon headers                   downloaded=939,008 left=8,747,591 eta=27m22.703s
+INFO [11-23|09:57:59.761] Restarting sync cycle                    reason="chain gapped, head: 9686631, newHead: 9686662"
+WARN [11-23|09:57:59.762] Latest filled block is not available
+WARN [11-23|09:57:59.928] Latest filled block is not available
+WARN [11-23|09:58:05.928] Header request timed out, dropping peer  peer=21956df7 elapsed=6.000113412s
+WARN [11-23|09:58:05.929] Header request timed out, dropping peer  peer=8242808b elapsed=6.000113412s
+WARN [11-23|09:58:06.453] Fetching the unknown forkchoice head from network hash=60d41f..b7f661
+INFO [11-23|09:58:07.219] Forkchoice requested sync to new head    number=9,686,672 hash=60d41f..b7f661 finalized=9,686,600
+INFO [11-23|09:58:07.219] Restarting sync cycle                    reason="chain gapped, head: 9686662, newHead: 9686672"
+WARN [11-23|09:58:07.219] Latest filled block is not available
+WARN [11-23|09:58:07.444] Latest filled block is not available
+INFO [11-23|09:58:11.361] Syncing beacon headers                   downloaded=946,688 left=8,740,935 eta=28m55.238s
+WARN [11-23|09:58:13.446] Header request timed out, dropping peer  peer=a6b90c42 elapsed=6.000035883s
+WARN [11-23|09:58:13.446] Header request timed out, dropping peer  peer=25c8fcc9 elapsed=6.000035883s
+INFO [11-23|09:58:19.394] Syncing beacon headers                   downloaded=1,014,272 left=8,673,351 eta=27m55.784s
+INFO [11-23|09:58:27.877] Syncing beacon headers                   downloaded=1,069,056 left=8,618,567 eta=27m28.254s
+INFO [11-23|09:58:36.625] Syncing beacon headers                   downloaded=1,120,768 left=8,566,855 eta=27m9.640s
+INFO [11-23|09:58:46.706] Syncing beacon headers                   downloaded=1,180,672 left=8,506,951 eta=26m48.777s
+INFO [11-23|09:58:56.474] Syncing beacon headers                   downloaded=1,234,432 left=8,453,191 eta=26m35.879s
+INFO [11-23|09:59:04.477] Syncing beacon headers                   downloaded=1,296,384 left=8,391,239 eta=26m0.279s
+INFO [11-23|09:59:13.137] Syncing beacon headers                   downloaded=1,345,024 left=8,342,599 eta=25m48.853s
+WARN [11-23|09:59:16.722] Header request timed out, dropping peer  peer=ece5af99 elapsed=6.000000003s
+INFO [11-23|09:59:22.434] Syncing beacon headers                   downloaded=1,399,808 left=8,287,815 eta=25m33.505s
+INFO [11-23|09:59:31.648] Syncing beacon headers                   downloaded=1,454,592 left=8,233,031 eta=25m18.146s
+INFO [11-23|09:59:39.706] Syncing beacon headers                   downloaded=1,508,864 left=8,178,759 eta=24m57.569s
+WARN [11-23|09:59:42.793] Header request timed out, dropping peer  peer=a0cb414a elapsed=6s
+INFO [11-23|09:59:48.003] Forkchoice requested sync to new head    number=9,686,684 hash=490d04..73c63f finalized=9,686,600
+INFO [11-23|09:59:48.378] Forkchoice requested sync to new head    number=9,686,693 hash=6f2c7a..6d396f finalized=unknown
+INFO [11-23|09:59:48.770] Syncing beacon headers                   downloaded=1,575,936 left=8,111,687 eta=24m28.727s
+INFO [11-23|09:59:56.936] Syncing beacon headers                   downloaded=1,626,624 left=8,060,999 eta=24m14.535s
+INFO [11-23|10:00:01.222] Forkchoice requested sync to new head    number=9,686,708 hash=5ac1ce..379325 finalized=unknown
+WARN [11-23|10:00:02.686] Served engine_getBlobsV2                 conn=127.0.0.1:37286 reqid=1 duration="59.325µs" err="Unsupported fork" errdata="{\"err\":\"engine_getBlobsV2 is not available before Osaka fork\"}"
+INFO [11-23|10:00:04.278] Forkchoice requested sync to new head    number=9,686,709 hash=9e32c1..5b5285 finalized=unknown
+INFO [11-23|10:00:05.282] Syncing beacon headers                   downloaded=1,673,216 left=8,014,407 eta=24m5.836s
+WARN [11-23|10:00:12.565] Served engine_getBlobsV2                 conn=127.0.0.1:37286 reqid=1 duration="69.18µs" err="Unsupported fork" errdata="{\"err\":\"engine_getBlobsV2 is not available before Osaka fork\"}"
+INFO [11-23|10:00:13.818] Forkchoice requested sync to new head    number=9,686,710 hash=76d898..f704b1 finalized=unknown
+INFO [11-23|10:00:14.814] Syncing beacon headers                   downloaded=1,735,168 left=7,952,455 eta=23m47.126s
+INFO [11-23|10:00:23.651] Syncing beacon headers                   downloaded=1,781,248 left=7,906,375 eta=23m41.376s
+WARN [11-23|10:00:25.030] Served engine_getBlobsV2                 conn=127.0.0.1:37286 reqid=1 duration="49.022µs" err="Unsupported fork" errdata="{\"err\":\"engine_getBlobsV2 is not available before Osaka fork\"}"
+INFO [11-23|10:00:25.130] Forkchoice requested sync to new head    number=9,686,711 hash=6a0d23..6d6dbe finalized=unknown
+INFO [11-23|10:00:32.066] Syncing beacon headers                   downloaded=1,821,184 left=7,866,439 eta=23m39.530s
+WARN [11-23|10:00:37.249] Served engine_getBlobsV2                 conn=127.0.0.1:58868 reqid=1 duration="48.98µs" err="Unsupported fork" errdata="{\"err\":\"engine_getBlobsV2 is not available before Osaka fork\"}"
+INFO [11-23|10:00:39.143] Forkchoice requested sync to new head    number=9,686,712 hash=3642a1..d1c027 finalized=unknown
+INFO [11-23|10:00:40.296] Syncing beacon headers                   downloaded=1,888,256 left=7,799,367 eta=23m11.429s
+INFO [11-23|10:00:48.548] Syncing beacon headers                   downloaded=1,936,896 left=7,750,727 eta=23m1.048s
+WARN [11-23|10:00:51.303] Served engine_getBlobsV2                 conn=127.0.0.1:37286 reqid=1 duration="63.439µs" err="Unsupported fork" errdata="{\"err\":\"engine_getBlobsV2 is not available before Osaka fork\"}"
+INFO [11-23|10:00:52.560] Forkchoice requested sync to new head    number=9,686,713 hash=3ed7d9..dc06cd finalized=unknown
+WARN [11-23|10:00:54.701] Header request timed out, dropping peer  peer=a0cb414a elapsed=6s
+INFO [11-23|10:00:57.790] Syncing beacon headers                   downloaded=1,991,168 left=7,696,455 eta=22m49.722s
+WARN [11-23|10:01:01.957] Served engine_getBlobsV2                 conn=127.0.0.1:37286 reqid=1 duration="43.814µs" err="Unsupported fork" errdata="{\"err\":\"engine_getBlobsV2 is not available before Osaka fork\"}"
+INFO [11-23|10:01:02.031] Forkchoice requested sync to new head    number=9,686,714 hash=cde1cc..d02b5c finalized=unknown
+WARN [11-23|10:01:03.791] Header request timed out, dropping peer  peer=c18943a9 elapsed=6s
+INFO [11-23|10:01:07.304] Syncing beacon headers                   downloaded=2,037,760 left=7,649,863 eta=22m46.017s
+WARN [11-23|10:01:12.951] Served engine_getBlobsV2                 conn=127.0.0.1:37286 reqid=1 duration="141.843µs" err="Unsupported fork" errdata="{\"err\":\"engine_getBlobsV2 is not available before Osaka fork\"}"
+WARN [11-23|10:01:13.305] Header request timed out, dropping peer  peer=1098718d elapsed=6s
+INFO [11-23|10:01:15.940] Syncing beacon headers                   downloaded=2,086,912 left=7,600,711 eta=22m36.728s
+INFO [11-23|10:01:21.005] Forkchoice requested sync to new head    number=9,686,715 hash=cbab54..fb384a finalized=unknown
+INFO [11-23|10:01:24.259] Syncing beacon headers                   downloaded=2,137,600 left=7,550,023 eta=22m25.106s
+WARN [11-23|10:01:27.241] Served engine_getBlobsV2                 conn=127.0.0.1:37286 reqid=1 duration="54.573µs" err="Unsupported fork" errdata="{\"err\":\"engine_getBlobsV2 is not available before Osaka fork\"}"
+INFO [11-23|10:01:28.992] Forkchoice requested sync to new head    number=9,686,716 hash=23a0ca..4634d6 finalized=unknown
+INFO [11-23|10:01:35.061] Syncing beacon headers                   downloaded=2,198,016 left=7,489,607 eta=22m14.472s
+WARN [11-23|10:01:36.582] Served engine_getBlobsV2                 conn=127.0.0.1:58868 reqid=1 duration="42.412µs" err="Unsupported fork" errdata="{\"err\":\"engine_getBlobsV2 is not available before Osaka fork\"}"
+INFO [11-23|10:01:36.633] Forkchoice requested sync to new head    number=9,686,717 hash=bcc365..940309 finalized=unknown
+INFO [11-23|10:01:43.993] Syncing beacon headers                   downloaded=2,260,992 left=7,426,631 eta=21m55.734s
+WARN [11-23|10:01:48.616] Served engine_getBlobsV2                 conn=127.0.0.1:58868 reqid=1 duration="65.531µs" err="Unsupported fork" errdata="{\"err\":\"engine_getBlobsV2 is not available before Osaka fork\"}"
+INFO [11-23|10:01:49.793] Forkchoice requested sync to new head    number=9,686,718 hash=bcef0a..f81ff1 finalized=unknown
+INFO [11-23|10:01:52.819] Syncing beacon headers                   downloaded=2,309,120 left=7,378,503 eta=21m48.165s
+WARN [11-23|10:02:00.550] Served engine_getBlobsV2                 conn=127.0.0.1:58868 reqid=1 duration="135.607µs" err="Unsupported fork" errdata="{\"err\":\"engine_getBlobsV2 is not available before Osaka fork\"}"
+INFO [11-23|10:02:00.809] Forkchoice requested sync to new head    number=9,686,719 hash=fc6a09..5c640f finalized=unknown
+INFO [11-23|10:02:02.252] Syncing beacon headers                   downloaded=2,364,416 left=7,323,207 eta=21m37.213s
+INFO [11-23|10:02:11.629] Syncing beacon headers                   downloaded=2,444,288 left=7,243,335 eta=21m8.926s
+WARN [11-23|10:02:14.072] Served engine_getBlobsV2                 conn=127.0.0.1:58868 reqid=1 duration="97.779µs" err="Unsupported fork" errdata="{\"err\":\"engine_getBlobsV2 is not available before Osaka fork\"}"
+INFO [11-23|10:02:14.191] Forkchoice requested sync to new head    number=9,686,720 hash=ced140..eabef4 finalized=unknown
+WARN [11-23|10:02:21.815] Header request timed out, dropping peer  peer=f897be5e elapsed=6s
+WARN [11-23|10:02:22.497] Header request timed out, dropping peer  peer=9aa5f62e elapsed=6s
+INFO [11-23|10:02:24.810] Syncing beacon headers                   downloaded=2,514,432 left=7,173,191 eta=20m59.183s
+WARN [11-23|10:02:25.374] Header request timed out, dropping peer  peer=aede27be elapsed=6s
+WARN [11-23|10:02:25.653] Served engine_getBlobsV2                 conn=127.0.0.1:58868 reqid=1 duration="64.696µs" err="Unsupported fork" errdata="{\"err\":\"engine_getBlobsV2 is not available before Osaka fork\"}"
+INFO [11-23|10:02:26.400] Forkchoice requested sync to new head    number=9,686,721 hash=b5e16e..ac4781 finalized=unknown
+INFO [11-23|10:02:33.579] Syncing beacon headers                   downloaded=2,582,528 left=7,105,095 eta=20m38.469s
+WARN [11-23|10:02:37.832] Served engine_getBlobsV2                 conn=127.0.0.1:58868 reqid=1 duration="91.21µs" err="Unsupported fork" errdata="{\"err\":\"engine_getBlobsV2 is not available before Osaka fork\"}"
+INFO [11-23|10:02:37.948] Forkchoice requested sync to new head    number=9,686,722 hash=8c66c9..e1a403 finalized=unknown
+INFO [11-23|10:02:42.914] Syncing beacon headers                   downloaded=2,636,800 left=7,050,823 eta=20m28.675s
+WARN [11-23|10:02:45.626] Header request timed out, dropping peer  peer=c25760b0 elapsed=6s
+WARN [11-23|10:02:49.423] Served engine_getBlobsV2                 conn=127.0.0.1:58868 reqid=1 duration="55.914µs" err="Unsupported fork" errdata="{\"err\":\"engine_getBlobsV2 is not available before Osaka fork\"}"
+INFO [11-23|10:02:49.968] Forkchoice requested sync to new head    number=9,686,723 hash=ad72a7..c1e13e finalized=unknown
+INFO [11-23|10:02:51.107] Syncing beacon headers                   downloaded=2,698,240 left=6,989,383 eta=20m11.456s
+INFO [11-23|10:02:53.723] New local node record                    seq=1,763,861,881,253 id=1c8df76f9c131eff ip=183.193.32.94 udp=14414 tcp=30303
+INFO [11-23|10:02:59.434] Syncing beacon headers                   downloaded=2,758,144 left=6,929,479 eta=19m55.909s
+WARN [11-23|10:03:01.051] Served engine_getBlobsV2                 conn=127.0.0.1:58868 reqid=1 duration="81.236µs" err="Unsupported fork" errdata="{\"err\":\"engine_getBlobsV2 is not available before Osaka fork\"}"
+INFO [11-23|10:03:02.231] Forkchoice requested sync to new head    number=9,686,724 hash=7a9df3..2a9c4c finalized=unknown
+INFO [11-23|10:03:09.139] Syncing beacon headers                   downloaded=2,818,560 left=6,869,063 eta=19m43.722s
+INFO [11-23|10:03:11.503] Forkchoice requested sync to new head    number=9,686,724 hash=7a9df3..2a9c4c finalized=unknown
+WARN [11-23|10:03:12.768] Served engine_getBlobsV2                 conn=127.0.0.1:58868 reqid=1 duration="40.024µs" err="Unsupported fork" errdata="{\"err\":\"engine_getBlobsV2 is not available before Osaka fork\"}"
+INFO [11-23|10:03:12.903] Forkchoice requested sync to new head    number=9,686,725 hash=8ce34f..c65f1d finalized=unknown
+INFO [11-23|10:03:17.405] Syncing beacon headers                   downloaded=2,891,776 left=6,795,847 eta=19m20.880s
+WARN [11-23|10:03:24.523] Served engine_getBlobsV2                 conn=127.0.0.1:58868 reqid=1 duration="261.092µs" err="Unsupported fork" errdata="{\"err\":\"engine_getBlobsV2 is not available before Osaka fork\"}"
+INFO [11-23|10:03:25.346] Forkchoice requested sync to new head    number=9,686,726 hash=4d2499..9285b3 finalized=unknown
+INFO [11-23|10:03:26.266] Syncing beacon headers                   downloaded=2,953,216 left=6,734,407 eta=19m6.659s
+INFO [11-23|10:03:34.418] Syncing beacon headers                   downloaded=3,008,512 left=6,679,111 eta=18m54.438s
+WARN [11-23|10:03:37.287] Served engine_getBlobsV2                 conn=127.0.0.1:58868 reqid=1 duration="178.958µs" err="Unsupported fork" errdata="{\"err\":\"engine_getBlobsV2 is not available before Osaka fork\"}"
+INFO [11-23|10:03:37.778] Forkchoice requested sync to new head    number=9,686,727 hash=332135..025029 finalized=unknown
+WARN [11-23|10:03:37.897] Header request timed out, dropping peer  peer=c18943a9 elapsed=6s
+INFO [11-23|10:03:42.952] Syncing beacon headers                   downloaded=3,061,760 left=6,625,863 eta=18m44.292s
+WARN [11-23|10:03:48.753] Served engine_getBlobsV2                 conn=127.0.0.1:58868 reqid=1 duration="140.044µs" err="Unsupported fork" errdata="{\"err\":\"engine_getBlobsV2 is not available before Osaka fork\"}"
+INFO [11-23|10:03:49.205] Forkchoice requested sync to new head    number=9,686,728 hash=a5fa22..cd3354 finalized=unknown
+INFO [11-23|10:03:51.165] Syncing beacon headers                   downloaded=3,138,560 left=6,549,063 eta=18m21.204s
+INFO [11-23|10:04:00.232] Syncing beacon headers                   downloaded=3,200,512 left=6,487,111 eta=18m8.052s
+WARN [11-23|10:04:00.420] Served engine_getBlobsV2                 conn=127.0.0.1:37286 reqid=1 duration="62.412µs" err="Unsupported fork" errdata="{\"err\":\"engine_getBlobsV2 is not available before Osaka fork\"}"
+INFO [11-23|10:04:00.788] Forkchoice requested sync to new head    number=9,686,729 hash=1c7924..bd7bba finalized=unknown
+INFO [11-23|10:04:10.460] Syncing beacon headers                   downloaded=3,284,992 left=6,402,631 eta=17m46.200s
+WARN [11-23|10:04:12.710] Served engine_getBlobsV2                 conn=127.0.0.1:37286 reqid=1 duration="60.419µs" err="Unsupported fork" errdata="{\"err\":\"engine_getBlobsV2 is not available before Osaka fork\"}"
+INFO [11-23|10:04:12.878] Forkchoice requested sync to new head    number=9,686,730 hash=f668cf..e38945 finalized=unknown
+INFO [11-23|10:04:18.576] Syncing beacon headers                   downloaded=3,347,968 left=6,339,655 eta=17m31.222s
+WARN [11-23|10:04:25.658] Served engine_getBlobsV2                 conn=127.0.0.1:37286 reqid=1 duration="64.686µs" err="Unsupported fork" errdata="{\"err\":\"engine_getBlobsV2 is not available before Osaka fork\"}"
+INFO [11-23|10:04:25.766] Forkchoice requested sync to new head    number=9,686,731 hash=e9f8a0..9cf61e finalized=unknown
+INFO [11-23|10:04:27.542] Syncing beacon headers                   downloaded=3,424,256 left=6,263,367 eta=17m11.834s
+WARN [11-23|10:04:36.781] Served engine_getBlobsV2                 conn=127.0.0.1:37286 reqid=1 duration="42.872µs" err="Unsupported fork" errdata="{\"err\":\"engine_getBlobsV2 is not available before Osaka fork\"}"
+INFO [11-23|10:04:36.785] Syncing beacon headers                   downloaded=3,494,912 left=6,192,711 eta=16m55.948s
+INFO [11-23|10:04:36.927] Forkchoice requested sync to new head    number=9,686,732 hash=6917d7..972fef finalized=unknown
+INFO [11-23|10:04:46.048] Syncing beacon headers                   downloaded=3,563,008 left=6,124,615 eta=16m41.495s
+WARN [11-23|10:04:46.249] Header request timed out, dropping peer  peer=a0cb414a elapsed=6s
+WARN [11-23|10:04:49.894] Served engine_getBlobsV2                 conn=127.0.0.1:37286 reqid=1 duration="87.877µs" err="Unsupported fork" errdata="{\"err\":\"engine_getBlobsV2 is not available before Osaka fork\"}"
+INFO [11-23|10:04:51.951] Forkchoice requested sync to new head    number=9,686,733 hash=e07087..32a237 finalized=unknown
+INFO [11-23|10:04:54.448] Syncing beacon headers                   downloaded=3,618,304 left=6,069,319 eta=16m31.377s
+WARN [11-23|10:05:01.483] Served engine_getBlobsV2                 conn=127.0.0.1:37286 reqid=1 duration="125.99µs" err="Unsupported fork" errdata="{\"err\":\"engine_getBlobsV2 is not available before Osaka fork\"}"
+INFO [11-23|10:05:01.580] Forkchoice requested sync to new head    number=9,686,734 hash=fa58c5..ddc383 finalized=unknown
+INFO [11-23|10:05:02.863] Syncing beacon headers                   downloaded=3,682,304 left=6,005,319 eta=16m17.598s
+WARN [11-23|10:05:08.864] Header request timed out, dropping peer  peer=f897be5e elapsed=6s
+INFO [11-23|10:05:11.464] Syncing beacon headers                   downloaded=3,774,464 left=5,913,159 eta=15m52.565s
+WARN [11-23|10:05:12.672] Served engine_getBlobsV2                 conn=127.0.0.1:37286 reqid=1 duration="547.535µs" err="Unsupported fork" errdata="{\"err\":\"engine_getBlobsV2 is not available before Osaka fork\"}"
+INFO [11-23|10:05:13.170] Forkchoice requested sync to new head    number=9,686,735 hash=edbdbe..bd507d finalized=unknown
+INFO [11-23|10:05:19.745] Syncing beacon headers                   downloaded=3,842,048 left=5,845,575 eta=15m37.713s
+WARN [11-23|10:05:25.511] Served engine_getBlobsV2                 conn=127.0.0.1:37286 reqid=1 duration="52.441µs" err="Unsupported fork" errdata="{\"err\":\"engine_getBlobsV2 is not available before Osaka fork\"}"
+INFO [11-23|10:05:25.927] Forkchoice requested sync to new head    number=9,686,736 hash=0eaca0..578079 finalized=unknown
+INFO [11-23|10:05:27.960] Syncing beacon headers                   downloaded=3,902,976 left=5,784,647 eta=15m25.630s
+WARN [11-23|10:05:36.536] Served engine_getBlobsV2                 conn=127.0.0.1:37286 reqid=1 duration="50.36µs" err="Unsupported fork" errdata="{\"err\":\"engine_getBlobsV2 is not available before Osaka fork\"}"
+INFO [11-23|10:05:36.754] Syncing beacon headers                   downloaded=3,971,072 left=5,716,551 eta=15m11.706s
+INFO [11-23|10:05:37.626] Forkchoice requested sync to new head    number=9,686,737 hash=f7fa27..31235a finalized=unknown
+INFO [11-23|10:05:45.332] Syncing beacon headers                   downloaded=4,041,216 left=5,646,407 eta=14m56.875s
+WARN [11-23|10:05:48.469] Served engine_getBlobsV2                 conn=127.0.0.1:37286 reqid=1 duration="71.408µs" err="Unsupported fork" errdata="{\"err\":\"engine_getBlobsV2 is not available before Osaka fork\"}"
+INFO [11-23|10:05:48.813] Forkchoice requested sync to new head    number=9,686,738 hash=6f9b11..ccd9b9 finalized=unknown
+WARN [11-23|10:05:52.810] Header request timed out, dropping peer  peer=4a17f092 elapsed=6s
+INFO [11-23|10:05:54.831] Syncing beacon headers                   downloaded=4,111,360 left=5,576,263 eta=14m43.505s
+WARN [11-23|10:06:00.375] Served engine_getBlobsV2                 conn=127.0.0.1:37286 reqid=1 duration="157.267µs" err="Unsupported fork" errdata="{\"err\":\"engine_getBlobsV2 is not available before Osaka fork\"}"
+INFO [11-23|10:06:00.505] Forkchoice requested sync to new head    number=9,686,739 hash=bd8ee4..34e304 finalized=unknown
+INFO [11-23|10:06:04.143] Syncing beacon headers                   downloaded=4,178,944 left=5,508,679 eta=14m30.956s
+WARN [11-23|10:06:13.299] Served engine_getBlobsV2                 conn=127.0.0.1:37286 reqid=1 duration="122.997µs" err="Unsupported fork" errdata="{\"err\":\"engine_getBlobsV2 is not available before Osaka fork\"}"
+INFO [11-23|10:06:13.485] Syncing beacon headers                   downloaded=4,248,064 left=5,439,559 eta=14m17.997s
+INFO [11-23|10:06:14.233] Forkchoice requested sync to new head    number=9,686,740 hash=630ec4..f7cb16 finalized=unknown
+WARN [11-23|10:06:23.224] Header request timed out, dropping peer  peer=ea119062 elapsed=6s
+INFO [11-23|10:06:23.684] Syncing beacon headers                   downloaded=4,318,208 left=5,369,415 eta=14m5.857s
+WARN [11-23|10:06:24.525] Served engine_getBlobsV2                 conn=127.0.0.1:37286 reqid=1 duration="56.813µs" err="Unsupported fork" errdata="{\"err\":\"engine_getBlobsV2 is not available before Osaka fork\"}"
+INFO [11-23|10:06:26.059] Forkchoice requested sync to new head    number=9,686,741 hash=b22910..5e6cdc finalized=unknown
+INFO [11-23|10:06:31.944] Syncing beacon headers                   downloaded=4,378,112 left=5,309,511 eta=13m54.993s
+WARN [11-23|10:06:37.149] Served engine_getBlobsV2                 conn=127.0.0.1:37286 reqid=1 duration="175.518µs" err="Unsupported fork" errdata="{\"err\":\"engine_getBlobsV2 is not available before Osaka fork\"}"
+INFO [11-23|10:06:38.134] Forkchoice requested sync to new head    number=9,686,742 hash=1cf235..316f3b finalized=unknown
+INFO [11-23|10:06:40.129] Syncing beacon headers                   downloaded=4,446,720 left=5,240,903 eta=13m41.134s
+INFO [11-23|10:06:47.219] New local node record                    seq=1,763,861,881,254 id=1c8df76f9c131eff ip=183.193.32.94 udp=14836 tcp=30303
+INFO [11-23|10:06:47.228] New local node record                    seq=1,763,861,881,255 id=1c8df76f9c131eff ip=183.193.32.94 udp=14836 tcp=30303
+INFO [11-23|10:06:47.231] New local node record                    seq=1,763,861,881,256 id=1c8df76f9c131eff ip=183.193.32.94 udp=14414 tcp=30303
+INFO [11-23|10:06:47.248] New local node record                    seq=1,763,861,881,257 id=1c8df76f9c131eff ip=183.193.32.94 udp=14836 tcp=30303
+WARN [11-23|10:06:48.673] Served engine_getBlobsV2                 conn=127.0.0.1:58868 reqid=1 duration="114.727µs" err="Unsupported fork" errdata="{\"err\":\"engine_getBlobsV2 is not available before Osaka fork\"}"
+INFO [11-23|10:06:49.053] Syncing beacon headers                   downloaded=4,509,184 left=5,178,439 eta=13m30.357s
+INFO [11-23|10:06:49.666] Forkchoice requested sync to new head    number=9,686,743 hash=0d1615..8a6ab4 finalized=unknown

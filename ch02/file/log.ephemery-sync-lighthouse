@@ -1,0 +1,138 @@
+Nov 23 13:16:46.086 INFO  Lighthouse started                            version: "Lighthouse/v8.0.1-ced49dd"
+Nov 23 13:16:46.087 INFO  Configured network                            network_name: "custom (ephemery)"
+Nov 23 13:16:46.089 INFO  Data directory initialised                    datadir: /home/tester/.lighthouse/custom
+Nov 23 13:16:46.091 INFO  Deposit contract                              deploy_block: 0, address: 0x00000000219ab540356cbb839cbe05303d7705fa
+Nov 23 13:16:46.160 INFO  Blob DB initialized                           path: "/home/tester/.lighthouse/custom/beacon/blobs_db", oldest_blob_slot: Some(Slot(0)), oldest_data_column_slot: Some(Slot(0))
+Nov 23 13:16:53.291 INFO  Starting checkpoint sync                      remote_url: https://checkpointz.bordel.wtf/
+Nov 23 13:16:55.737 INFO  Loaded checkpoint block and state             block_slot: 17344, state_slot: 17344, block_root: 0xcc221aebf534efc541f55b0c677bd3d655676e22f4d2e3a05b176e893c2a4368
+Nov 23 13:16:56.180 INFO  Block production enabled                    
+Nov 23 13:16:58.733 INFO  Beacon chain initialized                      head_state: 0x8f854241da1225b8c9f0341617c2821f37c6ed978d6ad55dc8cbb4f793381ff6, head_block: 0xcc221aebf534efc541f55b0c677bd3d655676e22f4d2e3a05b176e893c2a4368, head_slot: 17344
+Nov 23 13:16:58.733 INFO  Timer service started                       
+Nov 23 13:16:58.734 INFO  Execution payloads are pruned               
+Nov 23 13:16:58.735 INFO  UPnP Attempting to initialise routes        
+Nov 23 13:16:58.737 INFO  ENR Initialised                               enr: "enr:-O24QE0FOmSJjh2vD-BNdKWc49GT9pIrDaQ1gyl1XPRmrnEnURwT7sm3UhJIJ2EKdiDFU2AOmpx_zV89y0FLzkAcrPIBh2F0dG5ldHOIAAAAAAAAAACDY2djBIZjbGllbnTRikxpZ2h0aG91c2WFOC4wLjGEZXRoMpDxNmzfcAAQGwAIAAAAAAAAgmlkgnY0g25mZIQhWUWyhHF1aWOCIymFcXVpYzaCIymJc2VjcDI1NmsxoQP2Wl0nXTBJYNGs9-_IvQVA5iuCMkz2e8o74GvDvZrxuYhzeW5jbmV0cwCDdGNwgiMohHRjcDaCIyg", seq: 1, id: 0x064e..0e4c, ip4: None, udp4: None, tcp4: Some(9000), tcp6: Some(9000), udp6: None, quic4: Some(9001), quic6: Some(9001)
+Nov 23 13:16:58.741 INFO  Libp2p Starting                               peer_id: 16Uiu2HAmVEeZagQpzEUtjqVacxJWuvztpfdtDGmt32NuubAs4AyE, bandwidth_config: "3-Average"
+Nov 23 13:16:58.741 INFO  Listening established                         address: /ip4/0.0.0.0/tcp/9000/p2p/16Uiu2HAmVEeZagQpzEUtjqVacxJWuvztpfdtDGmt32NuubAs4AyE
+Nov 23 13:16:58.742 INFO  Listening established                         address: /ip4/0.0.0.0/udp/9001/quic-v1/p2p/16Uiu2HAmVEeZagQpzEUtjqVacxJWuvztpfdtDGmt32NuubAs4AyE
+Nov 23 13:16:58.743 INFO  Listening established                         address: /ip6/::/udp/9001/quic-v1/p2p/16Uiu2HAmVEeZagQpzEUtjqVacxJWuvztpfdtDGmt32NuubAs4AyE
+Nov 23 13:16:58.743 INFO  Listening established                         address: /ip6/::/tcp/9000/p2p/16Uiu2HAmVEeZagQpzEUtjqVacxJWuvztpfdtDGmt32NuubAs4AyE
+Nov 23 13:16:58.743 INFO  HTTP server is disabled                     
+Nov 23 13:17:00.151 INFO  Address updated                               ip: 183.193.32.94, udp_port: 14629
+Nov 23 13:17:00.724 INFO  Sync state updated                            old_state: Stalled, new_state: Syncing Head Chain
+Nov 23 13:17:06.001 WARN  Low peer count                                peer_count: "1"
+Nov 23 13:17:06.001 INFO  Syncing                                       peers: "1", distance: "91 slots (18 mins)", est_time: "--"
+Nov 23 13:17:08.743 INFO  UPnP not available                          
+Nov 23 13:17:08.744 INFO  Could not UPnP map Discovery port             error: Gateway does not support UPnP
+Nov 23 13:17:18.001 WARN  Low peer count                                peer_count: "1"
+Nov 23 13:17:18.001 INFO  Syncing                                       peers: "1", distance: "92 slots (18 mins)", est_time: "--"
+Nov 23 13:17:30.000 WARN  Low peer count                                peer_count: "1"
+Nov 23 13:17:30.000 INFO  Syncing                                       peers: "1", distance: "93 slots (18 mins)", est_time: "--"
+Nov 23 13:17:42.001 WARN  Low peer count                                peer_count: "1"
+Nov 23 13:17:42.001 INFO  Syncing                                       peers: "1", distance: "94 slots (18 mins)", est_time: "--"
+Nov 23 13:17:54.001 WARN  Low peer count                                peer_count: "1"
+Nov 23 13:17:54.001 INFO  Syncing                                       peers: "1", distance: "95 slots (19 mins)", est_time: "--"
+Nov 23 13:18:06.001 WARN  Low peer count                                peer_count: "1"
+Nov 23 13:18:06.001 INFO  Syncing                                       peers: "1", distance: "96 slots (19 mins)", est_time: "--"
+Nov 23 13:18:18.000 WARN  Low peer count                                peer_count: "1"
+Nov 23 13:18:18.000 INFO  Syncing                                       peers: "1", distance: "97 slots (19 mins)", est_time: "--"
+Nov 23 13:18:21.778 INFO  Address updated                               ip: 2409:8a1e:9555:7060:705d:9232:c33a:5a4f, udp_port: 9000
+Nov 23 13:18:30.001 WARN  Low peer count                                peer_count: "1"
+Nov 23 13:18:30.001 INFO  Syncing                                       peers: "1", distance: "98 slots (19 mins)", est_time: "--"
+Nov 23 13:18:42.000 WARN  Low peer count                                peer_count: "1"
+Nov 23 13:18:42.001 INFO  Syncing                                       peers: "1", distance: "99 slots (19 mins)", est_time: "--"
+Nov 23 13:18:54.001 WARN  Low peer count                                peer_count: "1"
+Nov 23 13:18:54.001 INFO  Syncing                                       peers: "1", distance: "100 slots (20 mins)", est_time: "--"
+Nov 23 13:19:06.000 WARN  Low peer count                                peer_count: "1"
+Nov 23 13:19:06.000 INFO  Syncing                                       peers: "1", distance: "101 slots (20 mins)", est_time: "--"
+Nov 23 13:19:18.001 WARN  Low peer count                                peer_count: "1"
+Nov 23 13:19:18.001 INFO  Syncing                                       peers: "1", distance: "102 slots (20 mins)", est_time: "--"
+Nov 23 13:19:30.001 WARN  Low peer count                                peer_count: "1"
+Nov 23 13:19:30.001 INFO  Syncing                                       peers: "1", distance: "103 slots (20 mins)", est_time: "--"
+Nov 23 13:19:42.000 WARN  Low peer count                                peer_count: "1"
+Nov 23 13:19:42.000 INFO  Syncing                                       peers: "1", distance: "104 slots (20 mins)", est_time: "--"
+Nov 23 13:19:54.001 WARN  Low peer count                                peer_count: "1"
+Nov 23 13:19:54.001 INFO  Syncing                                       peers: "1", distance: "105 slots (21 mins)", est_time: "--"
+Nov 23 13:20:06.000 WARN  Low peer count                                peer_count: "1"
+Nov 23 13:20:06.000 INFO  Syncing                                       peers: "1", distance: "106 slots (21 mins)", est_time: "--"
+Nov 23 13:20:18.001 WARN  Low peer count                                peer_count: "1"
+Nov 23 13:20:18.001 INFO  Syncing                                       peers: "1", distance: "107 slots (21 mins)", est_time: "--"
+Nov 23 13:20:30.000 INFO  Syncing                                       peers: "2", distance: "108 slots (21 mins)", est_time: "--"
+Nov 23 13:20:30.479 INFO  Sync state updated                            old_state: Syncing Head Chain, new_state: Syncing Finalized Chain
+Nov 23 13:20:42.001 INFO  Syncing                                       peers: "2", distance: "109 slots (21 mins)", est_time: "--"
+Nov 23 13:20:54.001 INFO  Syncing                                       peers: "2", distance: "110 slots (22 mins)", est_time: "--"
+Nov 23 13:21:06.001 INFO  Syncing                                       peers: "2", distance: "111 slots (22 mins)", est_time: "--"
+Nov 23 13:21:18.001 INFO  Syncing                                       peers: "2", distance: "112 slots (22 mins)", est_time: "--"
+Nov 23 13:21:30.001 INFO  Syncing                                       peers: "2", distance: "113 slots (22 mins)", est_time: "--"
+Nov 23 13:21:42.001 INFO  Syncing                                       peers: "2", distance: "114 slots (22 mins)", est_time: "--"
+Nov 23 13:21:54.007 INFO  Syncing                                       peers: "2", distance: "115 slots (23 mins)", est_time: "--"
+Nov 23 13:21:59.946 INFO  Address updated                               ip: 183.193.32.94, udp_port: 14373
+Nov 23 13:22:06.001 INFO  Syncing                                       peers: "2", distance: "116 slots (23 mins)", est_time: "--"
+Nov 23 13:22:18.001 INFO  Syncing                                       peers: "2", distance: "117 slots (23 mins)", est_time: "--"
+Nov 23 13:22:30.000 INFO  Syncing                                       peers: "2", distance: "118 slots (23 mins)", est_time: "--"
+Nov 23 13:22:42.000 INFO  Syncing                                       peers: "2", distance: "119 slots (23 mins)", est_time: "--"
+Nov 23 13:22:54.000 INFO  Syncing                                       peers: "2", distance: "120 slots (24 mins)", est_time: "--"
+Nov 23 13:23:06.000 INFO  Syncing                                       peers: "2", distance: "121 slots (24 mins)", est_time: "--"
+Nov 23 13:23:18.001 INFO  Syncing                                       peers: "2", distance: "122 slots (24 mins)", est_time: "--"
+Nov 23 13:23:30.001 INFO  Syncing                                       peers: "2", distance: "123 slots (24 mins)", est_time: "--"
+Nov 23 13:23:42.001 INFO  Syncing                                       peers: "2", distance: "124 slots (24 mins)", est_time: "--"
+Nov 23 13:23:54.001 INFO  Syncing                                       peers: "2", distance: "125 slots (25 mins)", est_time: "--"
+Nov 23 13:24:06.000 INFO  Syncing                                       peers: "2", distance: "126 slots (25 mins)", est_time: "--"
+Nov 23 13:24:18.001 INFO  Syncing                                       peers: "2", distance: "127 slots (25 mins)", est_time: "--"
+Nov 23 13:24:30.001 INFO  Syncing                                       peers: "2", distance: "128 slots (25 mins)", est_time: "--"
+Nov 23 13:24:42.017 INFO  Syncing                                       peers: "2", distance: "129 slots (25 mins)", est_time: "--"
+Nov 23 13:24:54.001 INFO  Syncing                                       peers: "2", distance: "130 slots (26 mins)", est_time: "--"
+Nov 23 13:25:06.001 INFO  Syncing                                       peers: "2", distance: "131 slots (26 mins)", est_time: "--"
+Nov 23 13:25:18.000 INFO  Syncing                                       peers: "2", distance: "132 slots (26 mins)", est_time: "--"
+Nov 23 13:25:30.001 INFO  Syncing                                       peers: "2", distance: "133 slots (26 mins)", est_time: "--"
+Nov 23 13:25:42.000 INFO  Syncing                                       peers: "2", distance: "134 slots (26 mins)", est_time: "--"
+Nov 23 13:25:54.001 INFO  Syncing                                       peers: "2", distance: "135 slots (27 mins)", est_time: "--"
+Nov 23 13:26:06.000 INFO  Syncing                                       peers: "3", distance: "136 slots (27 mins)", est_time: "--"
+Nov 23 13:26:18.001 INFO  Syncing                                       peers: "3", distance: "137 slots (27 mins)", est_time: "--"
+Nov 23 13:26:30.000 INFO  Syncing                                       peers: "3", distance: "75 slots (15 mins)", speed: "1.31 slots/sec", est_time: "0 mins"
+Nov 23 13:26:30.368 INFO  Starting database compaction                  old_finalized_epoch: 542, new_finalized_epoch: 543
+Nov 23 13:26:30.534 INFO  Database compaction complete                
+Nov 23 13:26:31.315 INFO  Sync state updated                            old_state: Syncing Finalized Chain, new_state: Evaluating known peers
+Nov 23 13:26:32.086 INFO  Sync state updated                            old_state: Evaluating known peers, new_state: Syncing Head Chain
+Nov 23 13:26:40.151 INFO  Sync state updated                            old_state: Syncing Head Chain, new_state: Syncing Historical Blocks
+Nov 23 13:26:40.153 INFO  Subscribed to topics                          topics: ["/eth2/f1366cdf/beacon_block/ssz_snappy", "/eth2/f1366cdf/beacon_aggregate_and_proof/ssz_snappy", "/eth2/f1366cdf/voluntary_exit/ssz_snappy", "/eth2/f1366cdf/proposer_slashing/ssz_snappy", "/eth2/f1366cdf/attester_slashing/ssz_snappy", "/eth2/f1366cdf/sync_committee_contribution_and_proof/ssz_snappy", "/eth2/f1366cdf/light_client_finality_update/ssz_snappy", "/eth2/f1366cdf/light_client_optimistic_update/ssz_snappy", "/eth2/f1366cdf/bls_to_execution_change/ssz_snappy", "/eth2/f1366cdf/data_column_sidecar_2/ssz_snappy", "/eth2/f1366cdf/data_column_sidecar_24/ssz_snappy", "/eth2/f1366cdf/data_column_sidecar_121/ssz_snappy", "/eth2/f1366cdf/data_column_sidecar_85/ssz_snappy", "/eth2/f1366cdf/data_column_sidecar_116/ssz_snappy", "/eth2/f1366cdf/data_column_sidecar_49/ssz_snappy", "/eth2/f1366cdf/data_column_sidecar_43/ssz_snappy", "/eth2/f1366cdf/data_column_sidecar_56/ssz_snappy"]
+Nov 23 13:26:42.001 INFO  Downloading historical blocks                 distance: "17344 slots (2 days 9 hrs)", est_time: "--"
+Nov 23 13:26:42.001 WARN  Head is optimistic                            info: "chain not fully verified, block and attestation production disabled until execution engine syncs", execution_block_hash: 0x14aa1c001e61edfcc000226432768d6a4b69f6bdf9291ffa4761770556984de7
+Nov 23 13:26:42.001 INFO  Synced                                        peers: "3", exec_hash: "0x14aa1c001e61edfcc000226432768d6a4b69f6bdf9291ffa4761770556984de7 (unverified)", finalized_root: 0xdb69e18ec4b8abfbe23783b948c07a52f3e0215ce17636726a1b824b74ff869f, finalized_epoch: 544, epoch: 546, block: "0x4fc9218bbfd9cfa3198f7cee581f63152adea3e3b4a52e4ef5ded82c24edd2e9", slot: 17483
+Nov 23 13:26:48.221 INFO  New block received                            slot: 17484, root: 0x4484e54ca9c48ce820a9129ecc8ccb71fd4f3e8fd37d45eae8ffad6b328c5114
+Nov 23 13:26:54.001 WARN  Head is optimistic                            info: "chain not fully verified, block and attestation production disabled until execution engine syncs", execution_block_hash: 0xfd4443522cb4a5816ac59df1f1e6d056c9026dcad9087e347af8c3ac9f91f4cb
+Nov 23 13:26:54.001 INFO  Synced                                        peers: "3", exec_hash: "0xfd4443522cb4a5816ac59df1f1e6d056c9026dcad9087e347af8c3ac9f91f4cb (unverified)", finalized_root: 0xdb69e18ec4b8abfbe23783b948c07a52f3e0215ce17636726a1b824b74ff869f, finalized_epoch: 544, epoch: 546, block: "0x4484e54ca9c48ce820a9129ecc8ccb71fd4f3e8fd37d45eae8ffad6b328c5114", slot: 17484
+Nov 23 13:27:06.001 WARN  Head is optimistic                            info: "chain not fully verified, block and attestation production disabled until execution engine syncs", execution_block_hash: 0xfd4443522cb4a5816ac59df1f1e6d056c9026dcad9087e347af8c3ac9f91f4cb
+Nov 23 13:27:06.001 INFO  Synced                                        peers: "3", exec_hash: "0xfd4443522cb4a5816ac59df1f1e6d056c9026dcad9087e347af8c3ac9f91f4cb (unverified)", finalized_root: 0xdb69e18ec4b8abfbe23783b948c07a52f3e0215ce17636726a1b824b74ff869f, finalized_epoch: 544, epoch: 546, block: "   …  empty", slot: 17485
+Nov 23 13:27:12.514 INFO  New block received                            slot: 17486, root: 0xd07ed6214a45b1b691fef6a469be62745967b00f47672f79e7802840278289ce
+Nov 23 13:27:18.001 WARN  Head is optimistic                            info: "chain not fully verified, block and attestation production disabled until execution engine syncs", execution_block_hash: 0xa9cb7341bea0639a6dd9e0be3b02904ba430eb46ed9fbbf884efac3563d499f1
+Nov 23 13:27:18.002 INFO  Synced                                        peers: "3", exec_hash: "0xa9cb7341bea0639a6dd9e0be3b02904ba430eb46ed9fbbf884efac3563d499f1 (unverified)", finalized_root: 0xdb69e18ec4b8abfbe23783b948c07a52f3e0215ce17636726a1b824b74ff869f, finalized_epoch: 544, epoch: 546, block: "0xd07ed6214a45b1b691fef6a469be62745967b00f47672f79e7802840278289ce", slot: 17486
+Nov 23 13:27:30.001 WARN  Head is optimistic                            info: "chain not fully verified, block and attestation production disabled until execution engine syncs", execution_block_hash: 0xa9cb7341bea0639a6dd9e0be3b02904ba430eb46ed9fbbf884efac3563d499f1
+Nov 23 13:27:30.001 INFO  Synced                                        peers: "3", exec_hash: "0xa9cb7341bea0639a6dd9e0be3b02904ba430eb46ed9fbbf884efac3563d499f1 (unverified)", finalized_root: 0xdb69e18ec4b8abfbe23783b948c07a52f3e0215ce17636726a1b824b74ff869f, finalized_epoch: 544, epoch: 546, block: "   …  empty", slot: 17487
+Nov 23 13:27:34.818 INFO  Execution engine online                     
+Nov 23 13:27:34.819 INFO  Issuing forkchoiceUpdated                     forkchoice_state: ForkchoiceState { head_block_hash: 0xa9cb7341bea0639a6dd9e0be3b02904ba430eb46ed9fbbf884efac3563d499f1, safe_block_hash: 0x4701823e1b5db3def27c3b8fbd46d1274c5e0daff03c3276c64f9c14d85c6e84, finalized_block_hash: 0x2331e93c84f23e6d253ee4b5e7d640152e71f96d0be4475ed5cb95c9ad687722 }
+Nov 23 13:27:36.301 INFO  New block received                            slot: 17488, root: 0x01154f4fb70b74ada64e3c33e00f0d69aa36da9bd67915f1409291584c1b8cf9
+Nov 23 13:27:42.001 INFO  Downloading historical blocks                 distance: "16962 slots (2 days 8 hrs)", speed: "7.96 slots/sec", est_time: "35 mins"
+Nov 23 13:27:42.001 INFO  Synced                                        peers: "4", exec_hash: "0x0e99e23c9198d4653d9cb3df8d33004ca5d6058e741d5f6bc248ccc2eb9f0165 (verified)", finalized_root: 0xdb69e18ec4b8abfbe23783b948c07a52f3e0215ce17636726a1b824b74ff869f, finalized_epoch: 544, epoch: 546, block: "0x01154f4fb70b74ada64e3c33e00f0d69aa36da9bd67915f1409291584c1b8cf9", slot: 17488
+Nov 23 13:27:48.273 INFO  New block received                            slot: 17489, root: 0x46005e45072f2f2d3bad7d3d5faecd817b21cb92396ff90c03165f5156f33bb3
+Nov 23 13:27:54.001 INFO  Synced                                        peers: "4", exec_hash: "0xbb8bf595e72ec54f9120f6424fc58f5389ca27ced775b30bdf4c3c5ed747b701 (verified)", finalized_root: 0xdb69e18ec4b8abfbe23783b948c07a52f3e0215ce17636726a1b824b74ff869f, finalized_epoch: 544, epoch: 546, block: "0x46005e45072f2f2d3bad7d3d5faecd817b21cb92396ff90c03165f5156f33bb3", slot: 17489
+Nov 23 13:28:00.312 INFO  New block received                            slot: 17490, root: 0x3335a5658be699a609079bfa1d92d4d7d2307b3c94693ffd0cc1bb3880a56610
+Nov 23 13:28:06.001 INFO  Synced                                        peers: "4", exec_hash: "0xb87a98687575b1d9cd4ac4239f652e3823115c00de48e4979f513299f9f1f07d (verified)", finalized_root: 0xdb69e18ec4b8abfbe23783b948c07a52f3e0215ce17636726a1b824b74ff869f, finalized_epoch: 544, epoch: 546, block: "0x3335a5658be699a609079bfa1d92d4d7d2307b3c94693ffd0cc1bb3880a56610", slot: 17490
+Nov 23 13:28:12.263 INFO  New block received                            slot: 17491, root: 0x68a6a90b8c15e916869aabee50455b98e4fd9e932e0aa4453010afeeb6489640
+Nov 23 13:28:18.001 INFO  Synced                                        peers: "4", exec_hash: "0xc906b33edb7e0cf3063ed47c7d29687b3aaed0e6e00494d7d0641298ba8578f6 (verified)", finalized_root: 0xdb69e18ec4b8abfbe23783b948c07a52f3e0215ce17636726a1b824b74ff869f, finalized_epoch: 544, epoch: 546, block: "0x68a6a90b8c15e916869aabee50455b98e4fd9e932e0aa4453010afeeb6489640", slot: 17491
+Nov 23 13:28:24.225 INFO  New block received                            slot: 17492, root: 0xc2f087dbf530c902a823c850aa3198535204bfffd5fc3a6af8d6494355a1fc1a
+Nov 23 13:28:30.001 INFO  Synced                                        peers: "4", exec_hash: "0xb926f5d0b20f7a47e489ac83dbde245ba0c0fc8b7e7548998621dfd5eab35c73 (verified)", finalized_root: 0xdb69e18ec4b8abfbe23783b948c07a52f3e0215ce17636726a1b824b74ff869f, finalized_epoch: 544, epoch: 546, block: "0xc2f087dbf530c902a823c850aa3198535204bfffd5fc3a6af8d6494355a1fc1a", slot: 17492
+Nov 23 13:28:36.262 INFO  New block received                            slot: 17493, root: 0x92af32076ec8b25127743c63f9cb7cee1522c9139260a27a5c7b0e2b7546751b
+Nov 23 13:28:42.001 INFO  Downloading historical blocks                 distance: "16480 slots (2 days 6 hrs)", speed: "8.00 slots/sec", est_time: "34 mins"
+Nov 23 13:28:42.001 INFO  Synced                                        peers: "4", exec_hash: "0x5f7f685e76b0e60c6288dde99c06a7047f21cf7b7c2a11e22c1c5f8c61cf8ea2 (verified)", finalized_root: 0xdb69e18ec4b8abfbe23783b948c07a52f3e0215ce17636726a1b824b74ff869f, finalized_epoch: 544, epoch: 546, block: "0x92af32076ec8b25127743c63f9cb7cee1522c9139260a27a5c7b0e2b7546751b", slot: 17493
+Nov 23 13:28:48.315 INFO  New block received                            slot: 17494, root: 0xaf9c37517056801c9e6fde2196db27dad9e677b557785ee0f3185aec01e96a6a
+Nov 23 13:28:54.001 INFO  Synced                                        peers: "4", exec_hash: "0xa79e84c2cdeee8fc477713cbe0063f10a9418c1c751562bd331596ff7eeefc93 (verified)", finalized_root: 0xdb69e18ec4b8abfbe23783b948c07a52f3e0215ce17636726a1b824b74ff869f, finalized_epoch: 544, epoch: 546, block: "0xaf9c37517056801c9e6fde2196db27dad9e677b557785ee0f3185aec01e96a6a", slot: 17494
+Nov 23 13:29:00.284 INFO  New block received                            slot: 17495, root: 0xfe02862de66c9830a80a5e4bceb9fb584896ae891847a2f8f376ad5619d2058d
+Nov 23 13:29:06.001 INFO  Synced                                        peers: "6", exec_hash: "0x3290d1f3e05f41d9249ad33e387a854c4986f792f9429ca1f85a5b56b47381c4 (verified)", finalized_root: 0xdb69e18ec4b8abfbe23783b948c07a52f3e0215ce17636726a1b824b74ff869f, finalized_epoch: 544, epoch: 546, block: "0xfe02862de66c9830a80a5e4bceb9fb584896ae891847a2f8f376ad5619d2058d", slot: 17495
+Nov 23 13:29:12.308 INFO  New block received                            slot: 17496, root: 0xd5d8dfc6eb15eb64c327fc8e2917dae16287bd925171663d40df8c78db3bc1af
+Nov 23 13:29:18.006 INFO  Synced                                        peers: "6", exec_hash: "0x0aa7a973e39445247e97847e434506f9742794ff82903d4574cd6bb83aa29fe0 (verified)", finalized_root: 0xdb69e18ec4b8abfbe23783b948c07a52f3e0215ce17636726a1b824b74ff869f, finalized_epoch: 544, epoch: 546, block: "0xd5d8dfc6eb15eb64c327fc8e2917dae16287bd925171663d40df8c78db3bc1af", slot: 17496
+Nov 23 13:29:30.001 INFO  Synced                                        peers: "6", exec_hash: "0x0aa7a973e39445247e97847e434506f9742794ff82903d4574cd6bb83aa29fe0 (verified)", finalized_root: 0xdb69e18ec4b8abfbe23783b948c07a52f3e0215ce17636726a1b824b74ff869f, finalized_epoch: 544, epoch: 546, block: "   …  empty", slot: 17497
+Nov 23 13:29:36.246 INFO  New block received                            slot: 17498, root: 0xe11cadea55dd7385c1de2ec1b4cd44ec3087eabcac5c826eaaa9c2b4dda32f56
+Nov 23 13:29:42.000 INFO  Downloading historical blocks                 distance: "16001 slots (2 days 5 hrs)", speed: "7.98 slots/sec", est_time: "33 mins"
+Nov 23 13:29:42.000 INFO  Synced                                        peers: "6", exec_hash: "0x0237cf39cccd35fd091b5c66557706991d11780b49136f3878433a45e013b481 (verified)", finalized_root: 0xdb69e18ec4b8abfbe23783b948c07a52f3e0215ce17636726a1b824b74ff869f, finalized_epoch: 544, epoch: 546, block: "0xe11cadea55dd7385c1de2ec1b4cd44ec3087eabcac5c826eaaa9c2b4dda32f56", slot: 17498
+Nov 23 13:29:54.001 INFO  Synced                                        peers: "6", exec_hash: "0x0237cf39cccd35fd091b5c66557706991d11780b49136f3878433a45e013b481 (verified)", finalized_root: 0xdb69e18ec4b8abfbe23783b948c07a52f3e0215ce17636726a1b824b74ff869f, finalized_epoch: 544, epoch: 546, block: "   …  empty", slot: 17499
+Nov 23 13:30:06.001 INFO  Synced                                        peers: "6", exec_hash: "0x0237cf39cccd35fd091b5c66557706991d11780b49136f3878433a45e013b481 (verified)", finalized_root: 0xdb69e18ec4b8abfbe23783b948c07a52f3e0215ce17636726a1b824b74ff869f, finalized_epoch: 544, epoch: 546, block: "   …  empty", slot: 17500
