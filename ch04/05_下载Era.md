@@ -1,8 +1,7 @@
 
 主要参考:
 - [Download Era](https://geth.ethereum.org/docs/fundamentals/downloadera)
-
-更新于 2025/06/24。
+- [Slot和Epoch](Slot和Epoch.md)
 
 Era 下载用于检索 Geth 节点中已过期或已修剪的历史区块主体和收据数据。Era 文件允许操作员高效地重建历史记录，而无需完全同步。启用历史记录过期功能的 Geth 节点可以修剪历史区块主体和收据，从而显著降低存储需求。然而，在某些情况下，操作员可能希望选择性地恢复部分历史记录，以用于研究、调试或合规性目的。Era 文件提供了一种高效的方法，可以直接从可信服务器检索历史数据，而无需重新同步整个链。`geth download-era` 命令可以实现有针对性地检索这些数据。
 
