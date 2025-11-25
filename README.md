@@ -11,6 +11,8 @@ Geth 和 Lighthouse 均采用最新版本测试，其中 Geth 版本为 v1.16.5�
 
 低配置机器下应使用 Ephemery 测试网测试。在笔者机器(CPU:4 Memory:8G Disk(avail):120G bandwith: 100Mbps)上，只有 Ephemery 较为顺利。
 
+浏览器选择 google chrome。
+
 ### 内容
 
 - [以太坊概述](ch01)
