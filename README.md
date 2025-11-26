@@ -60,6 +60,7 @@ Geth 和 Lighthouse 均采用最新版本测试，其中 Geth 版本为 v1.16.5�
     - [Ethereum Sepolia Faucet](https://cloud.google.com/application/web3/faucet/ethereum/sepolia)
     - [TESTNET Sepolia (ETH) Blockchain Explorer](https://sepolia.etherscan.io/)
     - [ETH Testnet Bridge by LayerZero](https://testnetbridge.com/sepolia)
+    - [sepolia dev](https://sepolia.dev/)
   - Ephemery
     - [ephemery dev](https://ephemery.dev/)
     - [Otterscan](https://otter.bordel.wtf/)
