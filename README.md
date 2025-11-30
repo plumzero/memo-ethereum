@@ -1,17 +1,13 @@
 
 *因为遗失了一些东西，所以很多事情不得不从头开始...*
 
-*研究，必须要狠狠的研究*
-
 *我的滑铁卢，说不定是你的凯旋门。*
 
 ### 说明
 
-Geth 和 Lighthouse 均采用最新版本测试，其中 Geth 版本为 v1.16.5，Lighthouse 版本为 8.0.1。
-
-低配置机器下应使用 Ephemery 测试网测试。在笔者机器(CPU:4 Memory:8G Disk(avail):120G bandwith: 100Mbps)上，只有 Ephemery 较为顺利。
-
-浏览器选择 google chrome。
+- Geth 和 Lighthouse 均采用最新版本测试，其中 Geth 版本为 v1.16.5，Lighthouse 版本为 8.0.1。
+- 低配置机器下应使用 Ephemery 测试网测试。在笔者机器(CPU:4 Memory:8G Disk(avail):120G bandwith: 100Mbps)上，只有 Ephemery 较为顺利。
+- 浏览器选择 google chrome。
 
 ### 内容
 
@@ -41,8 +37,12 @@ Geth 和 Lighthouse 均采用最新版本测试，其中 Geth 版本为 v1.16.5�
   - [内建对象](ch04/03_内建对象.md)
   - [函数调用](ch04/04_函数调用.md)
   - [断言处理](ch04/05_断言处理.md)
-  - [合约升级](ch04/06_合约升级.md)
+  - [导入依赖](ch04/06_导入依赖.md)
   - [参考示例](ch04/07_参考示例.md)
+  - [Go调用](ch04/08_Go调用.md)
+- [安全开发](ch05)
+  - [重入漏洞](ch05/01_重入漏洞.md)
+  - [整型溢出](ch05/02_整型溢出.md)
 
 - [Geth更多](ch08)
   - [数据存储](ch08/01_数据存储.md)
