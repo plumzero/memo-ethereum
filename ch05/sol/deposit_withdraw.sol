@@ -30,6 +30,7 @@ contract ETHWallet {
     }
     
     // 查看合约总余额
+    // address(this) 是强制转换的用法，this 代表合约对象，强制转换后就得到了合约地址
     function getContractBalance() external view returns (uint256) {
         return address(this).balance;
     }

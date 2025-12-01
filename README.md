@@ -31,18 +31,30 @@
   - [示例操作](ch03/02_示例操作.md)
   - [程序调试](ch03/03_程序调试.md)
   - [QuickDapp插件](ch03/04_QuickDapp.md)
-- [Solidity学习](ch04)
+- [Solidity语言](ch04)
   - [变量类型](ch04/01_变量类型.md)
-  - [变量传递](ch04/02_变量传递.md)
-  - [内建对象](ch04/03_内建对象.md)
-  - [函数调用](ch04/04_函数调用.md)
+  - [变量存储](ch04/02_变量存储.md)
+  - [合约函数](ch04/03_合约函数.md)
+  - [内建对象](ch04/04_内建对象.md)
   - [断言处理](ch04/05_断言处理.md)
-  - [导入依赖](ch04/06_导入依赖.md)
-  - [参考示例](ch04/07_参考示例.md)
-  - [Go调用](ch04/08_Go调用.md)
-- [安全开发](ch05)
-  - [重入漏洞](ch05/01_重入漏洞.md)
-  - [整型溢出](ch05/02_整型溢出.md)
+  - [合约事件](ch04/06_合约事件.md)
+  - [面向对象](ch04/07_面向对象.md)
+  - [导入依赖](ch04/08_导入依赖.md)
+- [智能合约](ch05)
+  - [合约开发](ch05/01_合约开发.md)
+  - [ERC标准](ch05/02_ERC标准.md)
+  - [Go调用](ch04/03_Go调用.md)
+  - [Python调用](ch04/04_Python调用.md)
+
+- [安全问题](ch06)
+  - [重入漏洞](ch06/01_重入漏洞.md)
+  - [整型溢出](ch06/02_整型溢出.md)
+  - [权限管理]
+  - [前端劫持]
+- [工程级开发](ch07)
+  - [RemixD]
+  - [Hardhat]
+  - [Fundary]
 
 - [Geth更多](ch08)
   - [数据存储](ch08/01_数据存储.md)
@@ -62,6 +74,7 @@
   - [Proof of Work](https://ethereum.org/developers/docs/consensus-mechanisms/pow/)
   - [Proof of Stake](https://ethereum.org/developers/docs/consensus-mechanisms/pos/)
   - [Ethereum Stack Exchange](https://ethereum.stackexchange.com/)
+  - [Ethereum Improvement Proposals](https://eips.ethereum.org/)
 
 - 主网相关
   - [Ethereum (ETH) Blockchain Explorer](https://etherscan.io/)

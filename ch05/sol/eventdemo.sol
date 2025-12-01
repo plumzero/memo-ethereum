@@ -13,7 +13,7 @@ contract eventdemo {
     event setAged(address _owner, uint256 _age);
 
     constructor() {
-        adminUser.name = "yekai";
+        adminUser.name = "plumzero";
         adminUser.age = 40;
     }
 

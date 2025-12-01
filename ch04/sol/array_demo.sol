@@ -9,7 +9,7 @@ contract array_demo {
     uint256[] internal ages;
 
     constructor() {
-        names[0] = "yekai";
+        names[0] = "plumzero";
         ages.push(10);
     }
 
