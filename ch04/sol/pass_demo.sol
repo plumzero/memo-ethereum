@@ -11,8 +11,8 @@ contract pass_demo {
     User public adminUser;
 
     constructor() {
-        adminUser.name = "yekai";
-        adminUser.age = 40;
+        adminUser.name = "xiaoming";
+        adminUser.age = 20;
     }
 
     function setAgeByVal(uint256 _age) public {
