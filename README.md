@@ -82,6 +82,7 @@
 - 测试网络
   - Sepolia
     - [Ethereum Sepolia Faucet](https://cloud.google.com/application/web3/faucet/ethereum/sepolia)
+    - [Faucets](https://faucets.chain.link/)
     - [TESTNET Sepolia (ETH) Blockchain Explorer](https://sepolia.etherscan.io/)
     - [ETH Testnet Bridge by LayerZero](https://testnetbridge.com/sepolia)
     - [sepolia dev](https://sepolia.dev/)
@@ -95,6 +96,9 @@
     - []()
   - Holesky
     - [Holesky explorer](https://eth-holesky.blockscout.com/)
+
+- 服务节点
+  - [Infura](https://www.infura.io/)
 
 - 检查点
   - [Ethereum Beacon Chain checkpoint sync endpoints](https://eth-clients.github.io/checkpoint-sync-endpoints/)

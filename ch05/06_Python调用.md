@@ -2,7 +2,7 @@
 参考文档:
 - [web3.py](http://github.com/ethereum/web3.py)
 
-以太坊为 Python 提供的 SDK 版本被称为 Web3.py。它是基于以太坊的 JavaScript 版本的SDK(Web3.js)产生的。
+Web3.py 是一个用于与以太坊交互的 Python 库。它的功能是帮助客户端发送交易、与智能合约交互、读取区块数据及各种其他用途。其原始 API 派生自 Web3.js(以太坊提供的 JavaScript API 库)。
 
 可以使用 pip 方式进行安装:
 ```s
@@ -15,7 +15,7 @@ ABI 提供了应用程序的的接口供外部调用，不像 Java 或 Go 文件
 
 如果采用本地 Geth 节点+Ephemery网络方式测试，涉及到 Lighthouse 可能需要翻墙同步数据。
 
-为了简单，这里采用直连 Ephemery 网络某个超级节点的方式，该节点为`https://otter.bordel.wtf/erigon`。
+为了简单，这里采用直连 Ephemery 网络某个超级节点服务(https://otter.bordel.wtf/erigon)的方式。
 
 测试者可以通过如下方式测试节点连通性:
 ```py
@@ -30,6 +30,8 @@ Type "help", "copyright", "credits" or "license" for more information.
 当看到返回 True 时，就代表连接成功了。
 
 如果使用本地 Geth 节点测试，可以将测试点改为`http://127.0.0.1:8545`。
+
+除了上面说的超级节点服务及本地 Geth 节点，开发者还可以使用 Infura 节点服务。具体参考[这里](Infura.md)。
 
 ### 调用合约
 
